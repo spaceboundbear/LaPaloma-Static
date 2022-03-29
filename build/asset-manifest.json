@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22112c6c.css",
+    "main.js": "/static/js/main.cf55ad4b.js",
+    "static/media/farm-bg.png": "/static/media/farm-bg.d02f22058c879e2ee2e0.png",
+    "static/media/brite-card.png": "/static/media/brite-card.f6999dc44c565b068d8e.png",
+    "static/media/summit-card.png": "/static/media/summit-card.5821ac0ac9beff97bdc2.png",
+    "static/media/schuettig-card.png": "/static/media/schuettig-card.a7dfb158069a4aa9fc9a.png",
+    "static/media/sendero-card.png": "/static/media/sendero-card.d1198e08ae952c228bd0.png",
+    "index.html": "/index.html",
+    "main.22112c6c.css.map": "/static/css/main.22112c6c.css.map",
+    "main.cf55ad4b.js.map": "/static/js/main.cf55ad4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22112c6c.css",
+    "static/js/main.cf55ad4b.js"
+  ]
+}
