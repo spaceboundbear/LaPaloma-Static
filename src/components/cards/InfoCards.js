@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 const InfoCards = (props) => {
   const styles = {
@@ -33,6 +34,9 @@ const InfoCards = (props) => {
       lineHeight: '20px',
       color: '#803308',
     },
+    link: {
+      textDecoration: 'none',
+    },
   };
 
   return (
@@ -52,13 +56,14 @@ const InfoCards = (props) => {
             {props.address}
           </p>
           <div className="px-3">
-            <button
-              href="#"
-              style={styles.button}
-              className="btn btn-sm btn-primary d-none d-xl-block "
-            >
-              More Information
-            </button>
+            <Link style={styles.link} to={`${props.link}`}>
+              <button
+                style={styles.button}
+                className="btn btn-sm btn-primary d-none d-xl-block "
+              >
+                More Information
+              </button>
+            </Link>
           </div>
         </div>
       </div>

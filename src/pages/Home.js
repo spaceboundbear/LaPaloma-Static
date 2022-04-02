@@ -19,6 +19,7 @@ const Home = () => {
               name={listing.name}
               address={listing.address}
               image={listing.image}
+              link={listing.link}
             />
           ))}
         </Row>

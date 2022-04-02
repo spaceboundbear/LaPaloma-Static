@@ -4,16 +4,26 @@ import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import LogoWhite from '../assets/logo/logo-white.png';
 
+const styles = {
+  nav: {
+    backgroundColor: '#001641',
+    textAlign: 'center',
+  },
+};
+
 const Footer = () => {
   return (
-    <Navbar bg="dark" variant="dark" className="sticky-top text-center">
+    <Navbar
+      style={styles.nav}
+      variant="dark"
+      className="sticky-top text-center"
+    >
       <Container>
         <Navbar.Brand className="d-none d-lg-block" to="/">
           <Image src={LogoWhite} style={{ height: '50px' }} />
         </Navbar.Brand>
         <Nav className="text-right mx-md-0 flex-wrap justify-content-center">
           <span className="navbar-text">For More Information:</span>
-
           <NavLink className="nav-link" to="/SenderoCrossing">
             (210) 900-5992
           </NavLink>

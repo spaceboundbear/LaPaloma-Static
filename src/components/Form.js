@@ -24,6 +24,16 @@ const styles = {
     marginBottom: '25px',
     paddingTop: '15px',
   },
+  name: {
+    fontFamily: 'HelveticaStdBold',
+    color: '#803308',
+    paddingTop: '15px',
+  },
+  agent: {
+    fontFamily: 'HelveticaStdObl',
+    color: '#803308',
+    fontSize: '20px',
+  },
 };
 
 const Form = () => {
@@ -151,8 +161,8 @@ const Form = () => {
                 style={styles.photo}
                 alt="lydia"
               />
-              <h4 className="">Lydia Rodriguez</h4>
-              <p>Agent</p>
+              <h4 style={styles.name}>Lydia Rodriguez</h4>
+              <p style={styles.agent}>Agent</p>
             </div>
           </Col>
         </Row>

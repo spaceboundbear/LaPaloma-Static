@@ -1,13 +1,15 @@
 import React from 'react';
 import { Nav, Navbar, Image, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../assets/logo/logo-lapaloma.png';
 
 const styles = {
   nav: {
     color: '#803308',
     fontFamily: 'helveticaStdBold',
+    paddingLeft: '20px',
+    textAlign: 'center',
   },
 };
 
@@ -21,9 +23,11 @@ const Header = () => {
       className="sticky-top"
     >
       <Container>
-        <Navbar.Brand href="/">
-          <Image src={Logo}></Image>
-        </Navbar.Brand>
+        <Link to={`/Home`}>
+          <Navbar.Brand>
+            <Image src={Logo}></Image>
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
