@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Barley';
+  src: url('../fonts/barley-regular.otf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/helvetica-std-bold-cond.otf');
+}
+
+@font-face {
+  font-family: 'HelveticaStdBold';
+  src: url('../fonts/helvetica-std-bold.otf');
+}
+
+@font-face {
+  font-family: 'HelveticaStdObl';
+  src: url('../fonts/helvetica-std-bold-obl.otf');
+}
+
+@font-face {
+  font-family: 'HelveticaStdRoman';
+  src: url('../fonts/helvetica-std-roman.otf');
+}
+
+ul {
+  list-style: none;
+  padding-left: 14px;
+}
+
+ul li::before {
+  content: '\2022';
+  color: #803308;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+li {
+  font-size: 18px;
+}
+
+.form-control::placeholder {
+  color: #803308;
+}
+
+input[type='text'] {
+  border: none;
+  border-bottom: 2px solid #803308;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+input[type='email'] {
+  border: none;
+  border-bottom: 2px solid #803308;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+label {
+  color: #803308;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import InfoCards from '../components/cards/InfoCards';
 import Jumbotron from '../components/Jumbotron';
 import Listings from '../data/Listings';
@@ -10,17 +10,19 @@ const Home = () => {
   return (
     <div>
       <Jumbotron />
-      <Row className="mx-auto">
-        {Listings.map((listing) => (
-          <InfoCards
-            key={listing.id}
-            id={listing.id}
-            name={listing.name}
-            address={listing.address}
-            image={listing.image}
-          />
-        ))}
-      </Row>
+      <Container>
+        <Row className="mx-auto">
+          {Listings.map((listing) => (
+            <InfoCards
+              key={listing.id}
+              id={listing.id}
+              name={listing.name}
+              address={listing.address}
+              image={listing.image}
+            />
+          ))}
+        </Row>
+      </Container>
       <Form />
     </div>
   );

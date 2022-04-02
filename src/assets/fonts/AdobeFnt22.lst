@@ -1,0 +1,149 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/AdobeFnt22.lst
+FileLength:3362
+FileModTime:669951471
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Barley-Regular
+FamilyName:Barley
+StyleName:Regular
+MenuName:Barley
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Barley
+WritingScript:Roman
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/Barley-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:23444
+FileModTime:570421619
+NameArray:0,Mac,4,Barley
+NameArray:0,Win,1,Barley
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Bold
+FamilyName:Helvetica LT Std
+StyleName:Bold
+MenuName:Helvetica LT Std
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Helvetica LT Std Bold
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/HelveticaLTStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:45340
+FileModTime:74474265
+NameArray:0,Mac,4,Helvetica LT Std Bold
+NameArray:0,Win,1,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-BoldCond
+FamilyName:Helvetica LT Std
+StyleName:Bold Condensed
+MenuName:Helvetica LT Std Cond
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Helvetica LT Std Bold Condensed
+WritingScript:Roman
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/HelveticaLTStd-BoldCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29984
+FileModTime:74474265
+NameArray:0,Mac,18,Helvetica LT Std Cond Bold
+NameArray:0,Mac,4,Helvetica LT Std Bold Condensed
+NameArray:0,Win,1,Helvetica LT Std Cond
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Obl
+FamilyName:Helvetica LT Std
+StyleName:Oblique
+MenuName:Helvetica LT Std
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Helvetica LT Std Oblique
+FamilyNameNative:
+StyleNameNative:Oblique
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/HelveticaLTStd-Obl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:45292
+FileModTime:74474265
+NameArray:0,Mac,18,Helvetica LT Std Obl
+NameArray:0,Mac,4,Helvetica LT Std Oblique
+NameArray:0,Win,1,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Roman
+FamilyName:Helvetica LT Std
+StyleName:Roman
+MenuName:Helvetica LT Std
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Helvetica LT Std Roman
+FamilyNameNative:
+StyleNameNative:Roman
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:/Users/gofishmbp/Desktop/Website-DevelopmentListings_LaPaloma Folder/Document fonts/HelveticaLTStd-Roman.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:45168
+FileModTime:74474265
+NameArray:0,Mac,18,Helvetica LT Std
+NameArray:0,Mac,4,Helvetica LT Std Roman
+NameArray:0,Win,1,Helvetica LT Std
+%EndFont
+
