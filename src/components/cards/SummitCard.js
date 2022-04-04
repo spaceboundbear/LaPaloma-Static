@@ -36,10 +36,19 @@ const styles = {
   button: {
     fontFamily: 'helveticaStdBold',
     height: '40px',
-    width: '100%',
+    width: '80%',
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
+    display: 'inline-block',
+  },
+  platButton: {
+    fontFamily: 'helveticaStdBold',
+    height: '40px',
+    fontSize: '18px',
+    backgroundColor: '#C7911B',
+    borderStyle: 'none',
+    display: 'inline-block',
   },
   header: {
     fontFamily: 'HelveticaStdBold',
@@ -49,17 +58,23 @@ const styles = {
   quote: {
     fontFamily: 'HelveticaStdObl',
   },
+  finance: {
+    fontFamily: 'HelveticaStdRoman',
+  },
 };
 
-const SchuettigCard = (props) => {
+const SummitCard = (props) => {
   return (
     <div>
       <Row>
         <Col xs={12} md={12} lg={6} className="mt-5">
           <Card style={styles.card}>
-            <h1 style={styles.header} className="mx-auto">
-              Schuettig Rd
-            </h1>
+            <img
+              className="mx-auto"
+              style={styles.logo}
+              src={props.logo}
+              alt="logo"
+            />
 
             <h3 style={styles.lotHeader} className="mx-auto pt-4">
               {props.lotHeader}
@@ -67,10 +82,19 @@ const SchuettigCard = (props) => {
             <p style={styles.info} className="mx-auto">
               {props.info}
             </p>
+            <p style={styles.info} className="mx-auto">
+              {props.infoTwo}
+            </p>
+            <p style={styles.info} className="mx-auto">
+              {props.infoThree}
+            </p>
+            <p style={styles.info} className="mx-auto">
+              {props.infoFour}
+            </p>
             <Row>
               <Col>
                 <p style={styles.info} className="mx-auto">
-                  {props.infoTwo}
+                  {props.infoFive}
                 </p>
                 <p style={styles.quote} className="mx-auto">
                   {props.quote}
@@ -97,13 +121,30 @@ const SchuettigCard = (props) => {
             />
 
             <Container>
-              <Row className="px-5 pt-3">
+              <Row className="pt-3">
+                <Col className="text-center">
+                  <button
+                    style={styles.platButton}
+                    className="btn btn-primary mt-1"
+                  >
+                    Recorded Restrictions
+                  </button>
+                </Col>
+              </Row>
+              <Container>
+                <Row className="pt-4 px-4">
+                  <Col>
+                    <h4 style={styles.finance}>{props.finance}</h4>
+                  </Col>
+                </Row>
+              </Container>
+              <Row className="text-center mt-3 mx-auto">
                 <Col className="text-center">
                   <button
                     style={styles.button}
                     className="btn btn-primary mt-1"
                   >
-                    Recorded Plat
+                    Application
                   </button>
                 </Col>
                 <Col>
@@ -111,7 +152,7 @@ const SchuettigCard = (props) => {
                     style={styles.button}
                     className="btn btn-primary mt-1"
                   >
-                    Recorded Restrictions
+                    Contact Us
                   </button>
                 </Col>
               </Row>
@@ -123,4 +164,4 @@ const SchuettigCard = (props) => {
   );
 };
 
-export default SchuettigCard;
+export default SummitCard;

@@ -51,15 +51,18 @@ const styles = {
   },
 };
 
-const SchuettigCard = (props) => {
+const BriteOaksCard = (props) => {
   return (
     <div>
       <Row>
         <Col xs={12} md={12} lg={6} className="mt-5">
           <Card style={styles.card}>
-            <h1 style={styles.header} className="mx-auto">
-              Schuettig Rd
-            </h1>
+            <img
+              className="mx-auto"
+              style={styles.logo}
+              src={props.logo}
+              alt="logo"
+            />
 
             <h3 style={styles.lotHeader} className="mx-auto pt-4">
               {props.lotHeader}
@@ -71,6 +74,9 @@ const SchuettigCard = (props) => {
               <Col>
                 <p style={styles.info} className="mx-auto">
                   {props.infoTwo}
+                </p>
+                <p style={styles.info} className="mx-auto">
+                  {props.infoThree}
                 </p>
                 <p style={styles.quote} className="mx-auto">
                   {props.quote}
@@ -123,4 +129,4 @@ const SchuettigCard = (props) => {
   );
 };
 
-export default SchuettigCard;
+export default BriteOaksCard;
