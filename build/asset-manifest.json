@@ -1,18 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.22112c6c.css",
-    "main.js": "/static/js/main.cf55ad4b.js",
+    "main.css": "/static/css/main.3714cbe1.css",
+    "main.js": "/static/js/main.d4ab089d.js",
+    "static/media/sendero.png": "/static/media/sendero.3219e28a600c795647fa.png",
+    "static/media/sendero-trees1.jpg": "/static/media/sendero-trees1.7fbc8e40d38b2175d4a6.jpg",
+    "static/media/sendero-trees2.jpg": "/static/media/sendero-trees2.00477dcbd19e437c0131.jpg",
+    "static/media/sendero-entrance.jpg": "/static/media/sendero-entrance.8eec372cdb076389a342.jpg",
+    "static/media/sendero-sunset.jpg": "/static/media/sendero-sunset.2b6de99c10641b3c0fc4.jpg",
+    "static/media/sendero-trees3.jpg": "/static/media/sendero-trees3.4d1502a0aeba4499d84e.jpg",
     "static/media/farm-bg.png": "/static/media/farm-bg.d02f22058c879e2ee2e0.png",
+    "static/media/sendero-overview.jpg": "/static/media/sendero-overview.ead2f13d85f5d36e54d3.jpg",
+    "static/media/lydia-headshot.jpg": "/static/media/lydia-headshot.e01a34417f3a863de4ce.jpg",
     "static/media/brite-card.png": "/static/media/brite-card.f6999dc44c565b068d8e.png",
     "static/media/summit-card.png": "/static/media/summit-card.5821ac0ac9beff97bdc2.png",
     "static/media/schuettig-card.png": "/static/media/schuettig-card.a7dfb158069a4aa9fc9a.png",
     "static/media/sendero-card.png": "/static/media/sendero-card.d1198e08ae952c228bd0.png",
+    "static/media/loc-sendero.jpg": "/static/media/loc-sendero.ce65280001f401f02779.jpg",
+    "static/media/sendero-deer.jpg": "/static/media/sendero-deer.d40cf0ecaa3858a1a4fa.jpg",
+    "static/media/sendero-deer-turkey.jpg": "/static/media/sendero-deer-turkey.0f8ada7d1d270e87fb71.jpg",
+    "static/media/helvetica-std-bold.otf": "/static/media/helvetica-std-bold.4bc96e238b2e211c6e4c.otf",
+    "static/media/helvetica-std-bold-obl.otf": "/static/media/helvetica-std-bold-obl.515ff706c6fa2d91f34d.otf",
+    "static/media/helvetica-std-roman.otf": "/static/media/helvetica-std-roman.4ff7f98a84f16e40f43f.otf",
+    "static/media/helvetica-std-bold-cond.otf": "/static/media/helvetica-std-bold-cond.450fd7d82c546c3f785d.otf",
+    "static/media/barley-regular.otf": "/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
+    "static/media/Logo-SenderoCrossing.png": "/static/media/Logo-SenderoCrossing.dafbbf105d36783df795.png",
     "index.html": "/index.html",
-    "main.22112c6c.css.map": "/static/css/main.22112c6c.css.map",
-    "main.cf55ad4b.js.map": "/static/js/main.cf55ad4b.js.map"
+    "main.3714cbe1.css.map": "/static/css/main.3714cbe1.css.map",
+    "main.d4ab089d.js.map": "/static/js/main.d4ab089d.js.map"
   },
   "entrypoints": [
-    "static/css/main.22112c6c.css",
-    "static/js/main.cf55ad4b.js"
+    "static/css/main.3714cbe1.css",
+    "static/js/main.d4ab089d.js"
   ]
 }
