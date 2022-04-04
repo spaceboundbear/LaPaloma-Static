@@ -41,7 +41,7 @@ const Form = () => {
     <div style={styles.formBg}>
       <Container>
         <Row className="mx-auto">
-          <Col sm={8} xs={12}>
+          <Col sm={12} md={8} xs={12} className="mx-auto">
             <h3 style={styles.head} className="text-center mt-4">
               Email La Paloma for More Information
             </h3>
