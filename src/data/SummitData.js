@@ -21,6 +21,7 @@ const SummitData = [
       '**Buyer to verify all information pertaining to land, soils, taxes, minerals, utilities, etc. upon purchasing and should seek legal advice when necessary.**',
     finance:
       'Seller Financing Available. Download the Application below or contact Lydia for rates and more information.',
+    link: 'https://goo.gl/maps/xYmZQMeWjD51VzVg6',
   },
 ];
 

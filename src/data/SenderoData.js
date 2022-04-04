@@ -14,6 +14,7 @@ const SenderoData = [
       'If you’re ready to trade the hustle & bustle of city life for wide open Texas skies, the stars at night are big and bright in Sendero Crossing!',
     tracts: '10-16 ACRE TRACTS AVAILABLE',
     buildTime: 'No Deadline on Build Time!',
+    link: 'https://goo.gl/maps/cdYZ3NjiPmSVbnjo7',
   },
 ];
 

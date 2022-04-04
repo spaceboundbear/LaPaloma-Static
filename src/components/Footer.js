@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, Image, Container, Col } from 'react-bootstrap';
+import { Nav, Navbar, Image, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import LogoWhite from '../assets/logo/logo-white.png';

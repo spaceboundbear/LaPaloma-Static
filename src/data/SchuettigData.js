@@ -12,6 +12,7 @@ const SchuettigData = [
       'This tract has no building improvements and is a blank slate to be customized for your future dream home or ranch getaway. If desired, seller can provide a well for an additional $23,000 fee. Electricity is available.',
     quote:
       '**No mineral or oil rights. Buyer to verify all information pertaining to land, soils, taxes, minerals, utilities, etc. upon purchasing and should seek legal advice when necessary**',
+    link: 'https://goo.gl/maps/34kKmuWAeefe2MEbA',
   },
 ];
 

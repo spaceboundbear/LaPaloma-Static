@@ -25,6 +25,7 @@ const BriteOaks = () => {
               infoTwo={location.infoTwo}
               infoThree={location.infoThree}
               quote={location.quote}
+              link={location.link}
             />
           ))}
         </Row>

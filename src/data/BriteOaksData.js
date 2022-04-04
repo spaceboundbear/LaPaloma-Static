@@ -15,6 +15,7 @@ const BriteOaksData = [
       'This tract has no building improvements and is a blank slate to be customized for your future dream home or ranch getaway. Electricity is available and light Deed Restrictions and an HOA are in place to protect your investment.',
     quote:
       '**No mineral or oil rights. Buyer to verify all information pertaining to land, soils, taxes, minerals, utilities, etc. upon purchasing and should seek legal advice when necessary**',
+    link: 'https://goo.gl/maps/FUwteF8DF1KYuKZS7',
   },
 ];
 

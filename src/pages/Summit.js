@@ -28,6 +28,7 @@ const Summit = () => {
               infoFive={location.infoFive}
               finance={location.finance}
               quote={location.quote}
+              link={location.link}
             />
           ))}
         </Row>

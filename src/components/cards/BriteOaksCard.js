@@ -95,12 +95,14 @@ const BriteOaksCard = (props) => {
         </Col>
         <Col xs={12} md={12} lg={6} className="mt-5">
           <Card style={styles.card} className="mx-auto">
-            <img
-              className="mx-auto"
-              style={styles.map}
-              src={props.map}
-              alt="map"
-            />
+            <a
+              href={props.link}
+              className="text-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={styles.map} src={props.map} alt="map" />
+            </a>
 
             <Container>
               <Row className="px-5 pt-3">
