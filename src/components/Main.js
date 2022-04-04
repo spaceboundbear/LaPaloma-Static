@@ -7,6 +7,7 @@ const Main = () => {
   return (
     <Routes>
       <Route exact path="/" element={<Home />}></Route>
+      <Route exact path="/LaPaloma-Static/" element={<Home />}></Route>
       <Route exact path="/Home" element={<Home />}></Route>
       <Route exact path="/SenderoCrossing" element={<Sendero />}></Route>
     </Routes>
