@@ -41,42 +41,50 @@ const styles = {
     backgroundColor: '#C7911B',
     borderStyle: 'none',
   },
+  header: {
+    fontFamily: 'HelveticaStdBold',
+    color: '#803308',
+    fontSize: '50px',
+  },
+  quote: {
+    fontFamily: 'HelveticaStdObl',
+  },
 };
 
-const LocationCards = (props) => {
+const SchuettigCard = (props) => {
   return (
     <div>
       <Row>
         <Col xs={12} md={12} lg={6} className="mt-5">
           <Card style={styles.card}>
-            <img
-              className="mx-auto"
-              style={styles.logo}
-              src={props.logo}
-              alt="logo"
-            />
+            <h1 style={styles.header} className="mx-auto">
+              Schuettig Rd
+            </h1>
+
             <h3 style={styles.lotHeader} className="mx-auto pt-4">
               {props.lotHeader}
             </h3>
             <p style={styles.info} className="mx-auto">
               {props.info}
             </p>
-            <p style={styles.info} className="mx-auto">
-              {props.infoTwo}
-            </p>
-            <h4 style={styles.tracts} className="text-center">
-              {props.tracts}
-            </h4>
-            <p style={styles.buildTime} className="text-center">
-              {props.buildTime}
-            </p>
-
-            <img
-              className="mx-auto"
-              style={styles.plat}
-              src={props.plat}
-              alt="plat"
-            />
+            <Row>
+              <Col>
+                <p style={styles.info} className="mx-auto">
+                  {props.infoTwo}
+                </p>
+                <p style={styles.quote} className="mx-auto">
+                  {props.quote}
+                </p>
+              </Col>
+              <Col>
+                <img
+                  className="mx-auto"
+                  style={styles.plat}
+                  src={props.plat}
+                  alt="plat"
+                />
+              </Col>
+            </Row>
           </Card>
         </Col>
         <Col xs={12} md={12} lg={6} className="mt-5">
@@ -115,4 +123,4 @@ const LocationCards = (props) => {
   );
 };
 
-export default LocationCards;
+export default SchuettigCard;

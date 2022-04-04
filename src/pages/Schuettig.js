@@ -1,31 +1,29 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import SenderoCard from '../components/cards/SenderoCard';
+import SchuettigCard from '../components/cards/SchuettigCard';
 import SenderoPhotos from '../data/PhotoData';
 import Jumbotron from '../components/Jumbotron';
-import SenderoData from '../data/SenderoData';
+import SchuettigData from '../data/SchuettigData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PhotoCards from '../components/cards/PhotoCards';
 import FrequentlyAsked from '../components/FrequentlyAsked';
 
-const Sendero = () => {
+const Schuettig = () => {
   return (
     <div>
       <Jumbotron />
       <Container>
         <Row className="mx-auto">
-          {SenderoData.map((location) => (
-            <SenderoCard
+          {SchuettigData.map((location) => (
+            <SchuettigCard
               key={location.id}
               id={location.id}
-              logo={location.logo}
               map={location.map}
               plat={location.plat}
               lotHeader={location.lotHeader}
               info={location.info}
               infoTwo={location.infoTwo}
-              tracts={location.tracts}
-              buildTime={location.buildTime}
+              quote={location.quote}
             />
           ))}
         </Row>
@@ -40,4 +38,4 @@ const Sendero = () => {
   );
 };
 
-export default Sendero;
+export default Schuettig;
