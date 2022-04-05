@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import SummitCard from '../components/cards/SummitCard';
-import SenderoPhotos from '../data/PhotoData';
+import SummitPhotos from '../data/SummitPhotos';
 import Jumbotron from '../components/Jumbotron';
 import SummitData from '../data/SummitData';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -33,7 +33,7 @@ const Summit = () => {
           ))}
         </Row>
         <Row>
-          {SenderoPhotos.map((photos) => (
+          {SummitPhotos.map((photos) => (
             <PhotoCards key={photos.id} id={photos.id} photo={photos.photo} />
           ))}
         </Row>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav, Navbar, Image, Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import LogoWhite from '../assets/logo/logo-white.png';
 import { GrFacebook } from 'react-icons/gr';
@@ -29,6 +28,7 @@ const styles = {
     color: 'white',
     paddingRight: '30px',
   },
+  anchor: { color: 'inherit' },
 };
 
 const Footer = () => {
@@ -46,35 +46,26 @@ const Footer = () => {
             For More Information
           </span>
 
-          <NavLink
-            style={styles.phone}
-            className="nav-link"
-            to="/SenderoCrossing"
-          >
+          <a style={styles.phone} className="nav-link" href="tel:2109005992">
             <BsFillTelephoneFill style={styles.icon} /> (210) 900-5992
-          </NavLink>
-          <NavLink
+          </a>
+
+          <a
             style={styles.link}
             className="nav-link px-3"
-            to="/SchuettigRd"
+            href="https://www.facebook.com/lydiasellsland"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <GrFacebook style={styles.icon} /> @lydiasellsland
-          </NavLink>
+          </a>
 
-          <NavLink
-            style={styles.link}
-            className="nav-link px-3"
-            to="/BriteOaks"
-          >
+          <span style={styles.link} className="nav-link px-3">
             Broker #9001432
-          </NavLink>
-          <NavLink
-            style={styles.link}
-            className="nav-link px-3"
-            to="/SummitOrchards"
-          >
+          </span>
+          <span style={styles.link} className="nav-link px-3">
             License #595743
-          </NavLink>
+          </span>
         </Nav>
       </Container>
     </Navbar>

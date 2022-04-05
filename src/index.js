@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './assets/styles/style.css';
-import 'react-image-lightbox/style.css';
 
 ReactDOM.render(
   <BrowserRouter>

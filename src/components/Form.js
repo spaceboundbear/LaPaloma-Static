@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import Headshot from '../assets/headshot/lydia-headshot.jpg';
+import emailjs from '@emailjs/browser';
 
 const styles = {
   photo: {
@@ -37,6 +38,30 @@ const styles = {
 };
 
 const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_3uwljb7',
+        'template_5z5x3di',
+        form.current,
+        'zBHofWcIbQsN5-ytm'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('Message Sent!');
+        },
+        (error) => {
+          console.log(error.text);
+          alert('Oops, Something Went Wrong');
+        }
+      );
+  };
+
   return (
     <div style={styles.formBg}>
       <Container>
@@ -45,12 +70,13 @@ const Form = () => {
             <h3 style={styles.head} className="text-center mt-4">
               Email La Paloma for More Information
             </h3>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div>
                 <input
                   type="text"
                   className="form-control mt-2"
                   placeholder="First Name"
+                  name="first_name"
                 />
               </div>
               <div>
@@ -58,6 +84,7 @@ const Form = () => {
                   type="text"
                   className="form-control mt-2"
                   placeholder="Last Name"
+                  name="last_name"
                 />
               </div>
               <div>
@@ -66,6 +93,7 @@ const Form = () => {
                   className="form-control mt-2"
                   id="email"
                   placeholder="Email Address"
+                  name="email"
                 />
               </div>
               <div>
@@ -74,6 +102,7 @@ const Form = () => {
                   className="form-control mt-2"
                   id="phone"
                   placeholder="Phone Number"
+                  name="phone"
                 />
               </div>
               <div className="radios mt-4">
@@ -86,7 +115,7 @@ const Form = () => {
                     type="radio"
                     name="gridRadios"
                     id="gridRadios1"
-                    value="option1"
+                    value="Sendero Crossing"
                     checked
                   />
                   <label className="form-check-label" for="gridRadios1">
@@ -99,7 +128,7 @@ const Form = () => {
                     type="radio"
                     name="gridRadios"
                     id="gridRadios2"
-                    value="option2"
+                    value="Schuettig Rd"
                     checked
                   />
                   <label className="form-check-label" for="gridRadios2">
@@ -112,7 +141,7 @@ const Form = () => {
                     type="radio"
                     name="gridRadios"
                     id="gridRadios3"
-                    value="option3"
+                    value="Brite Oaks"
                     checked
                   />
                   <label className="form-check-label" for="gridRadios3">
@@ -125,7 +154,7 @@ const Form = () => {
                     type="radio"
                     name="gridRadios"
                     id="gridRadios4"
-                    value="option4"
+                    value="Summit Orchards"
                     checked
                   />
                   <label className="form-check-label" for="gridRadios4">
@@ -138,7 +167,7 @@ const Form = () => {
                     type="radio"
                     name="gridRadios"
                     id="gridRadios5"
-                    value="option5"
+                    value="Other"
                     checked
                   />
                   <label className="form-check-label" for="gridRadios5">
@@ -146,12 +175,15 @@ const Form = () => {
                   </label>
                 </div>
               </div>
+              <div className="text-center mb-5">
+                <input
+                  type="submit"
+                  value="Submit"
+                  style={styles.button}
+                  className="btn btn-primary"
+                />
+              </div>
             </form>
-            <div className="text-center mb-5">
-              <button style={styles.button} className="btn btn-primary">
-                Enter
-              </button>
-            </div>
           </Col>
           <Col>
             <div className="mt-4 text-center">
