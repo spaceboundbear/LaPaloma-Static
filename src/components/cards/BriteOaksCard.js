@@ -107,20 +107,26 @@ const BriteOaksCard = (props) => {
             <Container>
               <Row className="px-5 pt-3">
                 <Col className="text-center">
-                  <button
+                  <a
+                    href={props.recorded}
+                    download="sendero-plat"
                     style={styles.button}
                     className="btn btn-primary mt-1"
                   >
                     Recorded Plat
-                  </button>
+                  </a>
                 </Col>
                 <Col>
-                  <button
+                  <a
+                    href={props.restrictions}
+                    download="sendero-restrictions"
                     style={styles.button}
                     className="btn btn-primary mt-1"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Recorded Restrictions
-                  </button>
+                  </a>
                 </Col>
               </Row>
             </Container>

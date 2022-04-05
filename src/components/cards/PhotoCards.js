@@ -23,7 +23,7 @@ const styles = {
 const PhotoCards = (props) => {
   return (
     <Card style={styles.card} className="col-sm-12 col-md-6 col-lg-3 mt-4">
-      <a href={props.photo} data-toggle="lightbox">
+      <a href={props.photo} target="_blank" rel="noopener noreferrer">
         <img style={styles.photo} src={props.photo} alt="lots" />
       </a>
     </Card>

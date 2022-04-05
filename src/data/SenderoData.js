@@ -1,6 +1,8 @@
 import SenderoLogo from '../assets/logo/Logo-SenderoCrossing.png';
 import LocSendero from '../assets/maps/loc-sendero.jpg';
 import PlatSendero from '../assets/plat/sendero.png';
+import recordedPlat from '../assets/recordedPlats/sendero-recorded-plat.png';
+import restriction from '../assets/restrictions/sendero-restrictions.pdf';
 
 const SenderoData = [
   {
@@ -15,6 +17,8 @@ const SenderoData = [
     tracts: '10-16 ACRE TRACTS AVAILABLE',
     buildTime: 'No Deadline on Build Time!',
     link: 'https://goo.gl/maps/cdYZ3NjiPmSVbnjo7',
+    recorded: recordedPlat,
+    restrictions: restriction,
   },
 ];
 

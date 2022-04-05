@@ -25,6 +25,8 @@ const Schuettig = () => {
               infoTwo={location.infoTwo}
               quote={location.quote}
               link={location.link}
+              restrictions={location.restrictions}
+              recorded={location.recorded}
             />
           ))}
         </Row>

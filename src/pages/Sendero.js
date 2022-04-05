@@ -27,6 +27,8 @@ const Sendero = () => {
               tracts={location.tracts}
               buildTime={location.buildTime}
               link={location.link}
+              recorded={location.recorded}
+              restrictions={location.restrictions}
             />
           ))}
         </Row>

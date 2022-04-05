@@ -26,6 +26,8 @@ const BriteOaks = () => {
               infoThree={location.infoThree}
               quote={location.quote}
               link={location.link}
+              recorded={location.recorded}
+              restrictions={location.restrictions}
             />
           ))}
         </Row>

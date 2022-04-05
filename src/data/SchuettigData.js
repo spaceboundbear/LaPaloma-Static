@@ -1,5 +1,7 @@
 import LocSchuettig from '../assets/maps/loc-schuettig.jpg';
 import PlatSchuettig from '../assets/plat/schuettig.jpg';
+import recordedPlat from '../assets/recordedPlats/schuettig-recorded.jpg';
+import restriction from '../assets/restrictions/schuettig-restrictions.pdf';
 
 const SchuettigData = [
   {
@@ -13,6 +15,8 @@ const SchuettigData = [
     quote:
       '**No mineral or oil rights. Buyer to verify all information pertaining to land, soils, taxes, minerals, utilities, etc. upon purchasing and should seek legal advice when necessary**',
     link: 'https://goo.gl/maps/34kKmuWAeefe2MEbA',
+    recorded: recordedPlat,
+    restrictions: restriction,
   },
 ];
 

@@ -48,9 +48,13 @@ const Jumbotron = () => {
             <h2 style={styles.fontHeader}>Contact us today to visit</h2>
             <h2 style={styles.fontHeader}>one of our developments</h2>
             <div className="mt-4">
-              <button style={styles.button} className="btn btn-primary">
+              <a
+                href="tel:2109005992"
+                style={styles.button}
+                className="btn btn-primary"
+              >
                 (210) 900-5992
-              </button>
+              </a>
             </div>
           </div>
         </Container>

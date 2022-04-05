@@ -1,6 +1,8 @@
 import LogoBriteOaks from '../assets/logo/logo-briteoaks.png';
 import LocBriteOaks from '../assets/maps/loc-briteoaks.jpg';
 import PlatBriteOaks from '../assets/plat/briteOaks.jpg';
+import recordedPlat from '../assets/recordedPlats/briteoaks-recorded.png';
+import restriction from '../assets/restrictions/briteoaks-restrictions.pdf';
 
 const BriteOaksData = [
   {
@@ -16,6 +18,8 @@ const BriteOaksData = [
     quote:
       '**No mineral or oil rights. Buyer to verify all information pertaining to land, soils, taxes, minerals, utilities, etc. upon purchasing and should seek legal advice when necessary**',
     link: 'https://goo.gl/maps/FUwteF8DF1KYuKZS7',
+    recorded: recordedPlat,
+    restrictions: restriction,
   },
 ];
 
