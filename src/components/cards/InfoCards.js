@@ -31,6 +31,7 @@ const InfoCards = (props) => {
       color: '#803308',
       fontSize: 'calc(15px + 0.8vw)',
       paddingLeft: 'calc(8px + 0.8vw)',
+      paddingTop: '10px',
     },
     address: {
       fontFamily: 'helveticaStdObl',

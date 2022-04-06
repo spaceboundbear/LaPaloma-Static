@@ -30,7 +30,6 @@ const styles = {
   button: {
     fontFamily: 'Helvetica',
     width: 'auto',
-    paddingBottom: '6px',
     fontSize: 'calc(15px + 1vw)',
     backgroundColor: '#C7911B',
     borderColor: '#803308',

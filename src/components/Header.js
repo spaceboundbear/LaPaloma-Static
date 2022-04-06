@@ -16,14 +16,14 @@ const Header = () => {
 
   return (
     <Navbar
-      collapseOnSelect
+      expanded={expanded}
       expand="lg"
       bg="white"
       variant="light"
       className="sticky-top"
     >
       <Container>
-        <Link to={`/Home`}>
+        <Link onClick={() => setExpanded(false)} to={`/Home`}>
           <Navbar.Brand>
             <Image src={Logo}></Image>
           </Navbar.Brand>
@@ -32,37 +32,41 @@ const Header = () => {
           onClick={() => setExpanded(expanded ? false : 'expanded')}
           aria-controls="responsive-navbar-nav"
         />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav className="justify-content-end mx-md-0">
-            <Nav.Link
+            <Link
+              onClick={() => setExpanded(false)}
               style={styles.nav}
               className="nav-link hover"
-              href="/SenderoCrossing"
+              to="/SenderoCrossing"
             >
               Sendero Crossing
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
+              onClick={() => setExpanded(false)}
               style={styles.nav}
               className="nav-link hover"
-              href="/SchuettigRd"
+              to="/SchuettigRd"
             >
               Schuettig Rd
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
+              onClick={() => setExpanded(false)}
               style={styles.nav}
               className="nav-link hover"
-              href="/BriteOaks"
+              to="/BriteOaks"
             >
               Brite Oaks
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
+              onClick={() => setExpanded(false)}
               style={styles.nav}
               className="nav-link hover"
-              href="/SummitOrchards"
+              to="/SummitOrchards"
             >
               Summit Orchards
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
