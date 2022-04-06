@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
 const InfoCards = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const styles = {
     photo: {
       backgroundImage: `url(${props.image})`,
@@ -17,22 +21,26 @@ const InfoCards = (props) => {
     },
     button: {
       fontFamily: 'helveticaStdBold',
-      height: '40px',
-      width: '200px',
-      fontSize: '20px',
+      width: 'auto',
+      fontSize: 'calc(8px + 0.8vw)',
       backgroundColor: '#C7911B',
       borderStyle: 'none',
     },
     name: {
       fontFamily: 'helveticaStdBold',
       color: '#803308',
-      fontSize: 'calc(20px + 0.7vw)',
+      fontSize: 'calc(15px + 0.8vw)',
+      paddingLeft: 'calc(8px + 0.8vw)',
     },
     address: {
       fontFamily: 'helveticaStdObl',
-      fontSize: 'calc(15px + 0.5vw)',
-      lineHeight: '20px',
+      fontSize: 'calc(13px + 0.5vw)',
+      lineHeight: 'calc(8px + 0.2vw)',
       color: '#803308',
+      paddingLeft: 'calc(8px + 0.8vw)',
+    },
+    buttonDiv: {
+      paddingLeft: 'calc(8px + 0.8vw)',
     },
     link: {
       textDecoration: 'none',
@@ -40,33 +48,39 @@ const InfoCards = (props) => {
   };
 
   return (
-    <div className="col-md-6 m-4 mx-auto">
-      <div style={styles.card} className="card img-fluid mx-auto">
-        <img
-          style={styles.photo}
-          className="card-img-top"
-          src={props.image}
-          alt="background"
-        />
-        <div className="card-img-overlay">
-          <h4 style={styles.name} className="card-title px-3 pt-3">
-            {props.name}
-          </h4>
-          <p style={styles.address} className="card-text px-3">
-            {props.address}
-          </p>
-          <div className="px-3">
-            <Link style={styles.link} to={`${props.link}`}>
-              <button
-                style={styles.button}
-                className="btn btn-sm btn-primary d-none d-xl-block "
-              >
-                More Information
-              </button>
-            </Link>
+    <div className="col-lg-6 m-4 mx-auto">
+      <Link to={`${props.link}`}>
+        <div style={styles.card} className="card img-fluid mx-auto">
+          <Link to={`${props.link}`}>
+            <img
+              style={styles.photo}
+              className="card-img-top"
+              src={props.image}
+              alt="background"
+            />
+          </Link>
+          <div className="card-img-overlay">
+            <h4 style={styles.name} className="card-title  ">
+              {props.name}
+            </h4>
+            <p style={styles.address} className="card-text ">
+              {props.address}
+            </p>
+            <div className="">
+              <Link style={styles.link} to={`${props.link}`}>
+                <div style={styles.buttonDiv} className="button-div">
+                  <button
+                    style={styles.button}
+                    className="btn btn-sm btn-primary btn-more-info"
+                  >
+                    More Information
+                  </button>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

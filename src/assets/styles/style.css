@@ -152,9 +152,32 @@ label {
   width: 100%;
 }
 
+.hover {
+  color: #803308 !important;
+  font-family: 'helveticaStdBold';
+  padding-left: '20px';
+  text-align: 'center';
+}
+
+a.nav-link:hover {
+  color: #c7911b !important;
+}
+
+.mySlides {
+  display: none;
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
+  }
+
+  .btn-more-info {
+    margin-top: -15px;
+  }
+
+  .card-title {
+    font-size: 8px;
   }
 }

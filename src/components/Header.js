@@ -1,19 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Nav, Navbar, Image, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/logo/logo-lapaloma.png';
+import '../assets/styles/style.css';
 
 const styles = {
   nav: {
-    color: '#803308',
-    fontFamily: 'helveticaStdBold',
     paddingLeft: '20px',
-    textAlign: 'center',
   },
 };
 
 const Header = () => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <Navbar
       collapseOnSelect
@@ -28,30 +28,41 @@ const Header = () => {
             <Image src={Logo}></Image>
           </Navbar.Brand>
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          onClick={() => setExpanded(expanded ? false : 'expanded')}
+          aria-controls="responsive-navbar-nav"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav className="justify-content-end mx-md-0">
-            <NavLink
+            <Nav.Link
               style={styles.nav}
-              className="nav-link"
-              to="/SenderoCrossing"
+              className="nav-link hover"
+              href="/SenderoCrossing"
             >
               Sendero Crossing
-            </NavLink>
-            <NavLink style={styles.nav} className="nav-link" to="/SchuettigRd">
-              Schuettig Rd
-            </NavLink>
-            <NavLink style={styles.nav} className="nav-link" to="/BriteOaks">
-              Brite Oaks
-            </NavLink>
-            <NavLink
+            </Nav.Link>
+            <Nav.Link
               style={styles.nav}
-              className="nav-link"
-              to="/SummitOrchards"
+              className="nav-link hover"
+              href="/SchuettigRd"
+            >
+              Schuettig Rd
+            </Nav.Link>
+            <Nav.Link
+              style={styles.nav}
+              className="nav-link hover"
+              href="/BriteOaks"
+            >
+              Brite Oaks
+            </Nav.Link>
+            <Nav.Link
+              style={styles.nav}
+              className="nav-link hover"
+              href="/SummitOrchards"
             >
               Summit Orchards
-            </NavLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

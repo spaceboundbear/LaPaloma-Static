@@ -10,6 +10,7 @@ const styles = {
     backgroundColor: '#001641',
     textAlign: 'center',
     fontFamily: 'helveticaStdRoman',
+    height: '120px',
   },
   link: {
     color: 'white',
@@ -36,7 +37,7 @@ const Footer = () => {
     <Navbar style={styles.nav} variant="dark" className="mx-md-auto">
       <Container>
         <Navbar.Brand className="d-none d-lg-block" to="/">
-          <Image src={LogoWhite} style={{ height: '50px' }} />
+          <Image src={LogoWhite} style={{ height: '70px' }} />
         </Navbar.Brand>
         <Nav
           style={styles.underline}
@@ -61,10 +62,10 @@ const Footer = () => {
           </a>
 
           <span style={styles.link} className="nav-link px-3">
-            Broker #9001432
+            License #595743
           </span>
           <span style={styles.link} className="nav-link px-3">
-            License #595743
+            Broker #9001432
           </span>
         </Nav>
       </Container>

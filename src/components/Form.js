@@ -175,7 +175,7 @@ const Form = () => {
                   </label>
                 </div>
               </div>
-              <div className="text-center mb-5">
+              <div className="text-center mb-5 pe-5">
                 <input
                   type="submit"
                   value="Submit"

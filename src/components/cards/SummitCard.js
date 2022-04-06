@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Row, Col, Container } from 'react-bootstrap';
 
@@ -36,19 +36,10 @@ const styles = {
   button: {
     fontFamily: 'helveticaStdBold',
     height: '40px',
-    width: '80%',
+    display: 'inline-block',
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
-    display: 'inline-block',
-  },
-  platButton: {
-    fontFamily: 'helveticaStdBold',
-    height: '40px',
-    fontSize: '18px',
-    backgroundColor: '#C7911B',
-    borderStyle: 'none',
-    display: 'inline-block',
   },
   header: {
     fontFamily: 'HelveticaStdBold',
@@ -64,6 +55,9 @@ const styles = {
 };
 
 const SummitCard = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <Row>
@@ -126,7 +120,7 @@ const SummitCard = (props) => {
               <Row className="pt-3">
                 <Col className="text-center">
                   <button
-                    style={styles.platButton}
+                    style={styles.button}
                     className="btn btn-primary mt-1"
                   >
                     Recorded Restrictions
@@ -140,16 +134,15 @@ const SummitCard = (props) => {
                   </Col>
                 </Row>
               </Container>
-              <Row className="text-center mt-3 mx-auto">
+              <Row className="text-center mt-3 mx-auto mx-2">
                 <Col className="text-center">
                   <button
                     style={styles.button}
-                    className="btn btn-primary mt-1"
+                    className="btn btn-primary mt-1 me-2"
                   >
                     Application
                   </button>
-                </Col>
-                <Col>
+
                   <button
                     style={styles.button}
                     className="btn btn-primary mt-1"

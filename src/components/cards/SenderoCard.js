@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Row, Col, Container } from 'react-bootstrap';
 
@@ -36,7 +36,7 @@ const styles = {
   button: {
     fontFamily: 'helveticaStdBold',
     height: '40px',
-    width: '100%',
+    display: 'inline-block',
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
@@ -44,6 +44,9 @@ const styles = {
 };
 
 const SenderoCard = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <Row>
@@ -90,23 +93,22 @@ const SenderoCard = (props) => {
               <img style={styles.map} src={props.map} alt="map" />
             </a>
             <Container>
-              <Row className="px-5 pt-3">
+              <Row className="pt-3">
                 <Col className="text-center">
                   <a
                     href={props.recorded}
                     download="sendero-plat"
                     style={styles.button}
-                    className="btn btn-primary mt-1"
+                    className="btn btn-primary mt-1 mx-2"
                   >
                     Recorded Plat
                   </a>
-                </Col>
-                <Col>
+
                   <a
                     href={props.restrictions}
                     download="sendero-restrictions"
                     style={styles.button}
-                    className="btn btn-primary mt-1"
+                    className="btn btn-primary mt-1 me-2"
                     target="_blank"
                     rel="noreferrer"
                   >

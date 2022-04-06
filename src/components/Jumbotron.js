@@ -23,13 +23,14 @@ const styles = {
   fontHeader: {
     fontFamily: 'Helvetica',
     fontSize: 'calc(28px + 1vw)',
-    lineHeight: '40px',
+    lineHeight: 'calc(25px + 0.65vw)',
     color: '#803308',
   },
 
   button: {
     fontFamily: 'Helvetica',
     width: 'auto',
+    paddingBottom: '6px',
     fontSize: 'calc(15px + 1vw)',
     backgroundColor: '#C7911B',
     borderColor: '#803308',
