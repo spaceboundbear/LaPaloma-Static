@@ -25,6 +25,7 @@ const InfoCards = (props) => {
       fontSize: 'calc(8px + 0.8vw)',
       backgroundColor: '#C7911B',
       borderStyle: 'none',
+      paddingBottom: '0px',
     },
     name: {
       fontFamily: 'helveticaStdBold',
@@ -72,7 +73,7 @@ const InfoCards = (props) => {
                 <div style={styles.buttonDiv} className="button-div">
                   <button
                     style={styles.button}
-                    className="btn btn-sm btn-primary btn-more-info"
+                    className="btn btn-sm btn-primary"
                   >
                     More Information
                   </button>

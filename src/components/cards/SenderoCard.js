@@ -40,6 +40,8 @@ const styles = {
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
+    paddingBottom: '0px',
+    paddingTop: '9px',
   },
 };
 

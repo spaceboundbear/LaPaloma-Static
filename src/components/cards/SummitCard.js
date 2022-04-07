@@ -40,6 +40,7 @@ const styles = {
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
+    paddingTop: '9px',
   },
   header: {
     fontFamily: 'HelveticaStdBold',

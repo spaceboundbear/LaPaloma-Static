@@ -35,6 +35,7 @@ const styles = {
     borderColor: '#803308',
     borderRadius: '0px',
     borderWidth: '2px',
+    paddingBottom: '0px',
   },
 };
 

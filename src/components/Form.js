@@ -14,10 +14,11 @@ const styles = {
   button: {
     fontFamily: 'helveticaStdBold',
     height: '40px',
-    width: '100px',
+    display: 'inline-block',
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
+    paddingTop: '9px',
   },
   head: {
     fontFamily: 'HelveticaStdBold',

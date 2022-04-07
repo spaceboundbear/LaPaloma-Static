@@ -40,6 +40,7 @@ const styles = {
     fontSize: '18px',
     backgroundColor: '#C7911B',
     borderStyle: 'none',
+    paddingTop: '9px',
   },
   header: {
     fontFamily: 'HelveticaStdBold',
@@ -48,14 +49,6 @@ const styles = {
   },
   quote: {
     fontFamily: 'HelveticaStdObl',
-  },
-  button: {
-    fontFamily: 'helveticaStdBold',
-    height: '40px',
-    display: 'inline-block',
-    fontSize: '18px',
-    backgroundColor: '#C7911B',
-    borderStyle: 'none',
   },
 };
 
