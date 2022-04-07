@@ -104,7 +104,7 @@ export default class Photos extends React.Component {
               src={briteField}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
             />
           </Card>
         </Row>
@@ -117,7 +117,7 @@ export default class Photos extends React.Component {
               src={briteFieldTwo}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
             />
           </Card>
           <Card
@@ -128,7 +128,7 @@ export default class Photos extends React.Component {
               src={briteFieldThree}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
             />
           </Card>
           <Card
@@ -139,7 +139,7 @@ export default class Photos extends React.Component {
               src={briteTrees}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
             />
           </Card>
           <Card
@@ -150,7 +150,7 @@ export default class Photos extends React.Component {
               src={briteTreesTwo}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
             />
           </Card>
         </Row>

@@ -103,7 +103,7 @@ export default class Photos extends React.Component {
               src={summitTrail}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
             />
           </Card>
         </Row>
@@ -116,7 +116,7 @@ export default class Photos extends React.Component {
               src={summitFieldTwo}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
             />
           </Card>
           <Card
@@ -127,7 +127,7 @@ export default class Photos extends React.Component {
               src={summitField}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
             />
           </Card>
           <Card
@@ -138,7 +138,7 @@ export default class Photos extends React.Component {
               src={summitTree}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
             />
           </Card>
           <Card
@@ -149,7 +149,7 @@ export default class Photos extends React.Component {
               src={summitTreeTwo}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
             />
           </Card>
         </Row>

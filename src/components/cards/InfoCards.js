@@ -43,6 +43,7 @@ const InfoCards = (props) => {
     },
     buttonDiv: {
       paddingLeft: 'calc(8px + 0.8vw)',
+      marginTop: 'calc(-5px + 0.8vw)',
     },
     link: {
       textDecoration: 'none',

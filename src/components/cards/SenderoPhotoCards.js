@@ -103,7 +103,7 @@ export default class Photos extends React.Component {
               src={senderoTreesTwo}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
             />
           </Card>
         </Row>
@@ -116,7 +116,7 @@ export default class Photos extends React.Component {
               src={senderoTreesOne}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
             />
           </Card>
           <Card
@@ -127,7 +127,7 @@ export default class Photos extends React.Component {
               src={senderoEntrance}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
             />
           </Card>
           <Card
@@ -138,7 +138,7 @@ export default class Photos extends React.Component {
               src={senderoSunset}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
             />
           </Card>
           <Card
@@ -149,7 +149,7 @@ export default class Photos extends React.Component {
               src={senderoOverview}
               style={styles.photo}
               alt="sendero"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
             />
           </Card>
         </Row>
