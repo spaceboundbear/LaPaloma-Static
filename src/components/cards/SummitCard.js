@@ -137,19 +137,21 @@ const SummitCard = (props) => {
               </Container>
               <Row className="text-center mt-3 mx-auto mx-2">
                 <Col className="text-center">
-                  <button
+                  <a
+                    href={props.application}
                     style={styles.button}
                     className="btn btn-primary mt-1 me-2"
                   >
                     Application
-                  </button>
+                  </a>
 
-                  <button
+                  <a
                     style={styles.button}
+                    href="mailto:lydia@hennekefinancial.com"
                     className="btn btn-primary mt-1"
                   >
                     Contact Us
-                  </button>
+                  </a>
                 </Col>
               </Row>
             </Container>

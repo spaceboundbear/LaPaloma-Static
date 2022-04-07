@@ -1,6 +1,5 @@
 import React from 'react';
 import Lightbox from 'react-image-lightbox';
-
 import 'react-image-lightbox/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
