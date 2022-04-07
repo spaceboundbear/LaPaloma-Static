@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LaPaloma-Static/static/css/main.e14811cf.css",
-    "main.js": "/LaPaloma-Static/static/js/main.6fb5e93a.js",
+    "main.js": "/LaPaloma-Static/static/js/main.d38d6008.js",
     "static/media/farm-mobile.jpg": "/LaPaloma-Static/static/media/farm-mobile.1385982bd656d1e42b77.jpg",
     "static/media/sendero-recorded-plat.png": "/LaPaloma-Static/static/media/sendero-recorded-plat.fe36521c126c43bd4c70.png",
     "static/media/sendero.png": "/LaPaloma-Static/static/media/sendero.3219e28a600c795647fa.png",
@@ -25,32 +25,32 @@
     "static/media/sendero-trees3.jpg": "/LaPaloma-Static/static/media/sendero-trees3.4d1502a0aeba4499d84e.jpg",
     "static/media/summit-field-2.jpg": "/LaPaloma-Static/static/media/summit-field-2.d86a6fe359e336282abe.jpg",
     "static/media/brite-field-2.jpg": "/LaPaloma-Static/static/media/brite-field-2.5cbe03e254e7a06a34d6.jpg",
-    "static/media/schuettig-field.jpg": "/LaPaloma-Static/static/media/schuettig-field.dfe003289a28b4a734cf.jpg",
     "static/media/summit-fence.jpg": "/LaPaloma-Static/static/media/summit-fence.f144ee86439bee60d82c.jpg",
-    "static/media/schuettig-fence.jpg": "/LaPaloma-Static/static/media/schuettig-fence.4b7d244a17d604652e41.jpg",
     "static/media/summit-field.jpg": "/LaPaloma-Static/static/media/summit-field.80ec0764fc582273a2a4.jpg",
-    "static/media/schuettig-field-2.jpg": "/LaPaloma-Static/static/media/schuettig-field-2.f91dca5c7a3bafd68bec.jpg",
-    "static/media/schuettig-rd.jpg": "/LaPaloma-Static/static/media/schuettig-rd.c76dc56fa6b1f234fe5d.jpg",
     "static/media/brite-field-4.jpg": "/LaPaloma-Static/static/media/brite-field-4.339a4736dbf0808316c8.jpg",
-    "static/media/schuettig-fence-2.jpg": "/LaPaloma-Static/static/media/schuettig-fence-2.921d90009a688169176c.jpg",
-    "static/media/schuettig-tree.jpg": "/LaPaloma-Static/static/media/schuettig-tree.32fa2bf280b438ad9b8c.jpg",
     "static/media/sendero-restrictions.pdf": "/LaPaloma-Static/static/media/sendero-restrictions.a10e3c1be356389dce2e.pdf",
     "static/media/farm-bg.png": "/LaPaloma-Static/static/media/farm-bg.d02f22058c879e2ee2e0.png",
     "static/media/summit.png": "/LaPaloma-Static/static/media/summit.eb65bc3a0b4e481bb639.png",
     "static/media/sendero-overview.jpg": "/LaPaloma-Static/static/media/sendero-overview.ead2f13d85f5d36e54d3.jpg",
     "static/media/schuettig.jpg": "/LaPaloma-Static/static/media/schuettig.acb5ea5f3cddbaf45838.jpg",
     "static/media/lydia-headshot.jpg": "/LaPaloma-Static/static/media/lydia-headshot.e01a34417f3a863de4ce.jpg",
-    "static/media/schuettig-zoom.jpg": "/LaPaloma-Static/static/media/schuettig-zoom.8761d2efee1f46acbd74.jpg",
+    "static/media/schuettig-field.jpg": "/LaPaloma-Static/static/media/schuettig-field.b2d99de1d9698f3ce33a.jpg",
+    "static/media/schuettig-fence.jpg": "/LaPaloma-Static/static/media/schuettig-fence.9eb7675ac1811b0b0a65.jpg",
+    "static/media/schuettig-field-2.jpg": "/LaPaloma-Static/static/media/schuettig-field-2.e69758ab07a89a31ccd8.jpg",
     "static/media/brite-card.png": "/LaPaloma-Static/static/media/brite-card.f6999dc44c565b068d8e.png",
+    "static/media/schuettig-rd.jpg": "/LaPaloma-Static/static/media/schuettig-rd.f15bd7e60f5c62e134a3.jpg",
+    "static/media/schuettig-fence-2.jpg": "/LaPaloma-Static/static/media/schuettig-fence-2.639352f575586f982091.jpg",
+    "static/media/schuettig-tree.jpg": "/LaPaloma-Static/static/media/schuettig-tree.dce73b69f01a80ff7ffa.jpg",
     "static/media/summit-card.png": "/LaPaloma-Static/static/media/summit-card.5821ac0ac9beff97bdc2.png",
     "static/media/briteoaks-recorded.png": "/LaPaloma-Static/static/media/briteoaks-recorded.678dcbb67d63794cf350.png",
     "static/media/schuettig-card.png": "/LaPaloma-Static/static/media/schuettig-card.a7dfb158069a4aa9fc9a.png",
     "static/media/sendero-card.png": "/LaPaloma-Static/static/media/sendero-card.d1198e08ae952c228bd0.png",
-    "static/media/schuettig-zoom-2.jpg": "/LaPaloma-Static/static/media/schuettig-zoom-2.2e7a071efff1ea86d64d.jpg",
     "static/media/schuettig-restrictions.pdf": "/LaPaloma-Static/static/media/schuettig-restrictions.424872ed0d91130287d5.pdf",
+    "static/media/schuettig-zoom.jpg": "/LaPaloma-Static/static/media/schuettig-zoom.fbbf9cd241285bb60955.jpg",
     "static/media/loc-schuettig.jpg": "/LaPaloma-Static/static/media/loc-schuettig.44f1a214aaec0d34938a.jpg",
     "static/media/loc-sendero.jpg": "/LaPaloma-Static/static/media/loc-sendero.ce65280001f401f02779.jpg",
     "static/media/loc-briteoaks.jpg": "/LaPaloma-Static/static/media/loc-briteoaks.a696551e8eb1f5d8fcb8.jpg",
+    "static/media/schuettig-zoom-2.jpg": "/LaPaloma-Static/static/media/schuettig-zoom-2.e43cd94fab2cda31ae07.jpg",
     "static/media/loc-summit.jpg": "/LaPaloma-Static/static/media/loc-summit.781be089ed74740cf7cf.jpg",
     "static/media/briteOaks.jpg": "/LaPaloma-Static/static/media/briteOaks.4cedd5c38c2e8fd3316e.jpg",
     "static/media/sendero-deer.jpg": "/LaPaloma-Static/static/media/sendero-deer.d40cf0ecaa3858a1a4fa.jpg",
@@ -64,10 +64,10 @@
     "static/media/Logo-SenderoCrossing.png": "/LaPaloma-Static/static/media/Logo-SenderoCrossing.dafbbf105d36783df795.png",
     "index.html": "/LaPaloma-Static/index.html",
     "main.e14811cf.css.map": "/LaPaloma-Static/static/css/main.e14811cf.css.map",
-    "main.6fb5e93a.js.map": "/LaPaloma-Static/static/js/main.6fb5e93a.js.map"
+    "main.d38d6008.js.map": "/LaPaloma-Static/static/js/main.d38d6008.js.map"
   },
   "entrypoints": [
     "static/css/main.e14811cf.css",
-    "static/js/main.6fb5e93a.js"
+    "static/js/main.d38d6008.js"
   ]
 }

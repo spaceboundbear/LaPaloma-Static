@@ -27,6 +27,15 @@ const InfoCards = (props) => {
       borderStyle: 'none',
       paddingBottom: '0px',
     },
+    buttonMobile: {
+      fontFamily: 'helveticaStdBold',
+      width: 'auto',
+      fontSize: 'calc(8px + 0.8vw)',
+      backgroundColor: '#C7911B',
+      borderStyle: 'none',
+      marginTop: '-22px',
+      paddingBottom: '0px',
+    },
     name: {
       fontFamily: 'helveticaStdBold',
       color: '#803308',
@@ -69,9 +78,23 @@ const InfoCards = (props) => {
             <p style={styles.address} className="card-text ">
               {props.address}
             </p>
-            <div className="">
+            <div>
               <Link style={styles.link} to={`${props.link}`}>
-                <div style={styles.buttonDiv} className="button-div">
+                <div
+                  style={styles.buttonDiv}
+                  className="button-div d-block d-sm-none"
+                >
+                  <button
+                    style={styles.buttonMobile}
+                    className="btn btn-sm btn-primary"
+                  >
+                    More Information
+                  </button>
+                </div>
+                <div
+                  style={styles.buttonDiv}
+                  className="button-div d-none d-sm-block"
+                >
                   <button
                     style={styles.button}
                     className="btn btn-sm btn-primary"
