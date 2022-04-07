@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LaPaloma-Static/static/css/main.ae73a8ad.css",
-    "main.js": "/LaPaloma-Static/static/js/main.71dfd23c.js",
+    "main.css": "/LaPaloma-Static/static/css/main.5277731d.css",
+    "main.js": "/LaPaloma-Static/static/js/main.a9486bbc.js",
     "static/media/sendero-recorded-plat.png": "/LaPaloma-Static/static/media/sendero-recorded-plat.fe36521c126c43bd4c70.png",
     "static/media/sendero.png": "/LaPaloma-Static/static/media/sendero.3219e28a600c795647fa.png",
     "static/media/brite-trees-2.jpg": "/LaPaloma-Static/static/media/brite-trees-2.628a9e11444f535fa50a.jpg",
@@ -61,11 +61,11 @@
     "static/media/barley-regular.otf": "/LaPaloma-Static/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
     "static/media/Logo-SenderoCrossing.png": "/LaPaloma-Static/static/media/Logo-SenderoCrossing.dafbbf105d36783df795.png",
     "index.html": "/LaPaloma-Static/index.html",
-    "main.ae73a8ad.css.map": "/LaPaloma-Static/static/css/main.ae73a8ad.css.map",
-    "main.71dfd23c.js.map": "/LaPaloma-Static/static/js/main.71dfd23c.js.map"
+    "main.5277731d.css.map": "/LaPaloma-Static/static/css/main.5277731d.css.map",
+    "main.a9486bbc.js.map": "/LaPaloma-Static/static/js/main.a9486bbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae73a8ad.css",
-    "static/js/main.71dfd23c.js"
+    "static/css/main.5277731d.css",
+    "static/js/main.a9486bbc.js"
   ]
 }

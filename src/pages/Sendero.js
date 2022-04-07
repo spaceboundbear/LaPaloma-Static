@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import SenderoCard from '../components/cards/SenderoCard';
-import SenderoPhotos from '../data/PhotoData';
 import Jumbotron from '../components/Jumbotron';
 import SenderoData from '../data/SenderoData';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PhotoCards from '../components/cards/PhotoCards';
 import FrequentlyAsked from '../components/FrequentlyAsked';
+import Photos from '../components/cards/SenderoPhotoCards';
 
 const Sendero = () => {
   return (
@@ -33,12 +32,9 @@ const Sendero = () => {
           ))}
         </Row>
         <Row>
-          {SenderoPhotos.map((photos) => (
-            <PhotoCards key={photos.id} id={photos.id} photo={photos.photo} />
-          ))}
+          <Photos />
         </Row>
       </Container>
-
       <FrequentlyAsked />
     </div>
   );

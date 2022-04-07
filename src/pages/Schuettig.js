@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import SchuettigCard from '../components/cards/SchuettigCard';
-import SchuettigPhotos from '../data/SchuettigPhotos';
+import SchuettigPhotoCards from '../components/cards/SchuettigPhotoCards';
 import Jumbotron from '../components/Jumbotron';
 import SchuettigData from '../data/SchuettigData';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PhotoCards from '../components/cards/PhotoCards';
 import FrequentlyAsked from '../components/FrequentlyAsked';
 
 const Schuettig = () => {
@@ -31,9 +30,7 @@ const Schuettig = () => {
           ))}
         </Row>
         <Row>
-          {SchuettigPhotos.map((photos) => (
-            <PhotoCards key={photos.id} id={photos.id} photo={photos.photo} />
-          ))}
+          <SchuettigPhotoCards />
         </Row>
       </Container>
 

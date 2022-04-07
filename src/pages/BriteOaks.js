@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import BriteOaksCard from '../components/cards/BriteOaksCard';
-import BritePhotos from '../data/BritePhotos';
 import Jumbotron from '../components/Jumbotron';
 import BriteOaksData from '../data/BriteOaksData';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PhotoCards from '../components/cards/PhotoCards';
 import FrequentlyAsked from '../components/FrequentlyAsked';
+import BritePhotosCard from '../components/cards/BritePhotoCards';
 
 const BriteOaks = () => {
   return (
@@ -32,9 +31,7 @@ const BriteOaks = () => {
           ))}
         </Row>
         <Row>
-          {BritePhotos.map((photos) => (
-            <PhotoCards key={photos.id} id={photos.id} photo={photos.photo} />
-          ))}
+          <BritePhotosCard />
         </Row>
       </Container>
       <FrequentlyAsked />
