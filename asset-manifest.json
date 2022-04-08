@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LaPaloma-Static/static/css/main.e14811cf.css",
-    "main.js": "/LaPaloma-Static/static/js/main.558ae7d3.js",
+    "main.js": "/LaPaloma-Static/static/js/main.dd5e3202.js",
     "static/media/brite-trees-2.jpg": "/LaPaloma-Static/static/media/brite-trees-2.628a9e11444f535fa50a.jpg",
     "static/media/brite-creek.jpg": "/LaPaloma-Static/static/media/brite-creek.ccc985e00e5c857402e8.jpg",
     "static/media/briteoaks-restrictions.pdf": "/LaPaloma-Static/static/media/briteoaks-restrictions.d62d78c7a9511b61672b.pdf",
@@ -63,10 +63,10 @@
     "static/media/barley-regular.otf": "/LaPaloma-Static/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
     "index.html": "/LaPaloma-Static/index.html",
     "main.e14811cf.css.map": "/LaPaloma-Static/static/css/main.e14811cf.css.map",
-    "main.558ae7d3.js.map": "/LaPaloma-Static/static/js/main.558ae7d3.js.map"
+    "main.dd5e3202.js.map": "/LaPaloma-Static/static/js/main.dd5e3202.js.map"
   },
   "entrypoints": [
     "static/css/main.e14811cf.css",
-    "static/js/main.558ae7d3.js"
+    "static/js/main.dd5e3202.js"
   ]
 }
