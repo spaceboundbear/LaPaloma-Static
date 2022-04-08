@@ -1,6 +1,6 @@
 import React from 'react';
 import Lightbox from 'react-image-lightbox';
-
+import LazyLoad from 'react-lazyload';
 import 'react-image-lightbox/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -76,45 +76,53 @@ export default class Photos extends React.Component {
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigFenceOneTN}
-              style={styles.photo}
-              alt="schuettig-fence"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigFenceOneTN}
+                style={styles.photo}
+                alt="schuettig-fence"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigFenceTwoTN}
-              style={styles.photo}
-              alt="schuettig-fence-2"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigFenceTwoTN}
+                style={styles.photo}
+                alt="schuettig-fence-2"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigTreeTN}
-              style={styles.photo}
-              alt="schuettig-tree"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigTreeTN}
+                style={styles.photo}
+                alt="schuettig-tree"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigRdTN}
-              style={styles.photo}
-              alt="schuettig-rd"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigRdTN}
+                style={styles.photo}
+                alt="schuettig-rd"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
+              />
+            </LazyLoad>
           </Card>
         </Row>
         <Row>
@@ -122,45 +130,53 @@ export default class Photos extends React.Component {
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigFieldTwoTN}
-              style={styles.photo}
-              alt="schuettig-field"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigFieldTwoTN}
+                style={styles.photo}
+                alt="schuettig-field"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigFieldTN}
-              style={styles.photo}
-              alt="schuettig-field-2"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigFieldTN}
+                style={styles.photo}
+                alt="schuettig-field-2"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigZoomTN}
-              style={styles.photo}
-              alt="schuettig-tree"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigZoomTN}
+                style={styles.photo}
+                alt="schuettig-tree"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
+              />
+            </LazyLoad>
           </Card>
           <Card
             style={styles.card}
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
-            <img
-              src={schuettigZoomTwoTN}
-              style={styles.photo}
-              alt="schuettig-tree-2"
-              onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
-            />
+            <LazyLoad once>
+              <img
+                src={schuettigZoomTwoTN}
+                style={styles.photo}
+                alt="schuettig-tree-2"
+                onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
+              />
+            </LazyLoad>
           </Card>
         </Row>
 
