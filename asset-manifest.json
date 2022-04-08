@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/LaPaloma-Static/static/css/main.e14811cf.css",
-    "main.js": "/LaPaloma-Static/static/js/main.61469c59.js",
+    "main.js": "/LaPaloma-Static/static/js/main.becf7a7a.js",
     "static/media/brite-trees-2.jpg": "/LaPaloma-Static/static/media/brite-trees-2.628a9e11444f535fa50a.jpg",
     "static/media/brite-creek.jpg": "/LaPaloma-Static/static/media/brite-creek.ccc985e00e5c857402e8.jpg",
     "static/media/briteoaks-restrictions.pdf": "/LaPaloma-Static/static/media/briteoaks-restrictions.d62d78c7a9511b61672b.pdf",
     "static/media/briteoaks-recorded.jpg": "/LaPaloma-Static/static/media/briteoaks-recorded.fa9ef73d3a56be1a394f.jpg",
-    "static/media/farm-mobile.webp": "/LaPaloma-Static/static/media/farm-mobile.7cf824f7d3ff3a4accf7.webp",
     "static/media/brite-trees-1.jpg": "/LaPaloma-Static/static/media/brite-trees-1.c323f8906b353594c340.jpg",
     "static/media/summit-aerial.jpg": "/LaPaloma-Static/static/media/summit-aerial.f3e0bb2e3826807151bf.jpg",
     "static/media/summit-aerial-2.jpg": "/LaPaloma-Static/static/media/summit-aerial-2.a24b85489843a3f0e66d.jpg",
@@ -36,6 +35,7 @@
     "static/media/sendero-entrance.jpg": "/LaPaloma-Static/static/media/sendero-entrance.7c22550727281bbd3d9d.jpg",
     "static/media/summit.png": "/LaPaloma-Static/static/media/summit.17b9a8ea7a83ead69955.png",
     "static/media/sendero-sunset.jpg": "/LaPaloma-Static/static/media/sendero-sunset.c096ea999bef769f94ac.jpg",
+    "static/media/farm-mobile.jpg": "/LaPaloma-Static/static/media/farm-mobile.e367f759ca862a8fca93.jpg",
     "static/media/farm-bg.png": "/LaPaloma-Static/static/media/farm-bg.1fabd188689fadea2440.png",
     "static/media/schuettig-zoom.jpg": "/LaPaloma-Static/static/media/schuettig-zoom.fbbf9cd241285bb60955.jpg",
     "static/media/schuettig-zoom-2.jpg": "/LaPaloma-Static/static/media/schuettig-zoom-2.e43cd94fab2cda31ae07.jpg",
@@ -95,10 +95,10 @@
     "static/media/barley-regular.otf": "/LaPaloma-Static/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
     "index.html": "/LaPaloma-Static/index.html",
     "main.e14811cf.css.map": "/LaPaloma-Static/static/css/main.e14811cf.css.map",
-    "main.61469c59.js.map": "/LaPaloma-Static/static/js/main.61469c59.js.map"
+    "main.becf7a7a.js.map": "/LaPaloma-Static/static/js/main.becf7a7a.js.map"
   },
   "entrypoints": [
     "static/css/main.e14811cf.css",
-    "static/js/main.61469c59.js"
+    "static/js/main.becf7a7a.js"
   ]
 }
