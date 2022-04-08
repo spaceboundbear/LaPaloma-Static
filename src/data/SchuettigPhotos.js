@@ -7,39 +7,45 @@ import schuettigField from '../assets/photos/schuettig/schuettig-field.jpg';
 import schuettigZoom from '../assets/photos/schuettig/schuettig-zoom.jpg';
 import schuettigZoomTwo from '../assets/photos/schuettig/schuettig-zoom-2.jpg';
 
-const SchuettigPhotos = [
+export const SchuettigPhotos = [
   {
-    id: 1,
-    photo: schuettigFenceOne,
+    width: 4,
+    height: 3,
+    src: schuettigFenceOne,
   },
   {
-    id: 2,
-    photo: schuettigFenceTwo,
+    width: 4,
+    height: 3,
+    src: schuettigFenceTwo,
   },
   {
-    id: 3,
-    photo: schuettigTree,
+    width: 4,
+    height: 3,
+    src: schuettigTree,
   },
   {
-    id: 4,
-    photo: schuettigRd,
+    width: 4,
+    height: 3,
+    src: schuettigRd,
   },
   {
-    id: 5,
-    photo: schuettigField,
+    width: 4,
+    height: 3,
+    src: schuettigField,
   },
   {
-    id: 6,
-    photo: schuettigFieldTwo,
+    width: 4,
+    height: 3,
+    src: schuettigFieldTwo,
   },
   {
-    id: 7,
-    photo: schuettigZoom,
+    width: 4,
+    height: 3,
+    src: schuettigZoom,
   },
   {
-    id: 8,
-    photo: schuettigZoomTwo,
+    width: 4,
+    height: 3,
+    src: schuettigZoomTwo,
   },
 ];
-
-export default SchuettigPhotos;

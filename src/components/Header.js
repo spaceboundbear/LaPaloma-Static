@@ -23,7 +23,7 @@ const Header = () => {
       className="sticky-top"
     >
       <Container>
-        <Link onClick={() => setExpanded(false)} to={`/Home`}>
+        <Link to={`/Home`}>
           <Navbar.Brand>
             <Image src={Logo}></Image>
           </Navbar.Brand>

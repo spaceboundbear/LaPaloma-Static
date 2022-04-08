@@ -7,39 +7,45 @@ import briteFieldThree from '../assets/photos/brite/brite-field-4.jpg';
 import briteTrees from '../assets/photos/brite/brite-trees-1.jpg';
 import briteTreesTwo from '../assets/photos/brite/brite-trees-2.jpg';
 
-const BritePhotos = [
+export const BritePhotos = [
   {
-    id: 1,
-    photo: briteAerialOne,
+    width: 4,
+    height: 3,
+    src: briteAerialOne,
   },
   {
-    id: 2,
-    photo: briteAerialTwo,
+    width: 4,
+    height: 3,
+    src: briteAerialTwo,
   },
   {
-    id: 3,
-    photo: briteCreek,
+    width: 4,
+    height: 3,
+    src: briteCreek,
   },
   {
-    id: 4,
-    photo: briteField,
+    width: 4,
+    height: 3,
+    src: briteField,
   },
   {
-    id: 5,
-    photo: briteFieldTwo,
+    width: 4,
+    height: 3,
+    src: briteFieldTwo,
   },
   {
-    id: 6,
-    photo: briteFieldThree,
+    width: 4,
+    height: 3,
+    src: briteFieldThree,
   },
   {
-    id: 7,
-    photo: briteTrees,
+    width: 4,
+    height: 3,
+    src: briteTrees,
   },
   {
-    id: 8,
-    photo: briteTreesTwo,
+    width: 4,
+    height: 3,
+    src: briteTreesTwo,
   },
 ];
-
-export default BritePhotos;

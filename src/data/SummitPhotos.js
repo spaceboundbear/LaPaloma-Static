@@ -7,39 +7,45 @@ import summitField from '../assets/photos/summit/summit-field.jpg';
 import summitTree from '../assets/photos/summit/summit-tree-1.jpg';
 import summitTreeTwo from '../assets/photos/summit/summit-tree-2.jpg';
 
-const SummitPhotos = [
+export const SummitPhotos = [
   {
-    id: 1,
-    photo: summitFence,
+    width: 4,
+    height: 3,
+    src: summitFence,
   },
   {
-    id: 2,
-    photo: summitTreeTwo,
+    width: 4,
+    height: 3,
+    src: summitTreeTwo,
   },
   {
-    id: 3,
-    photo: summitTree,
+    width: 4,
+    height: 3,
+    src: summitTree,
   },
   {
-    id: 4,
-    photo: summitTrail,
+    width: 4,
+    height: 3,
+    src: summitTrail,
   },
   {
-    id: 5,
-    photo: summitField,
+    width: 4,
+    height: 3,
+    src: summitField,
   },
   {
-    id: 6,
-    photo: summitFieldTwo,
+    width: 4,
+    height: 3,
+    src: summitFieldTwo,
   },
   {
-    id: 7,
-    photo: summitAerialOne,
+    width: 4,
+    height: 3,
+    src: summitAerialOne,
   },
   {
-    id: 8,
-    photo: summitAerialTwo,
+    width: 4,
+    height: 3,
+    src: summitAerialTwo,
   },
 ];
-
-export default SummitPhotos;

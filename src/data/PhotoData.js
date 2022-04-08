@@ -7,39 +7,45 @@ import senderoEntrance from '../assets/photos/sendero/sendero-entrance.jpg';
 import senderoSunset from '../assets/photos/sendero/sendero-sunset.jpg';
 import senderoOverview from '../assets/photos/sendero/sendero-overview.jpg';
 
-const SenderoPhotos = [
+export const SenderoPhotos = [
   {
-    id: 1,
-    photo: senderoTurkey,
+    width: 4,
+    height: 3,
+    src: senderoTurkey,
   },
   {
-    id: 2,
-    photo: senderoDeer,
+    width: 4,
+    height: 3,
+    src: senderoDeer,
   },
   {
-    id: 3,
-    photo: senderoTreesThree,
+    width: 4,
+    height: 3,
+    src: senderoTreesThree,
   },
   {
-    id: 4,
-    photo: senderoTreesTwo,
+    width: 4,
+    height: 3,
+    src: senderoTreesTwo,
   },
   {
-    id: 5,
-    photo: senderoTreesOne,
+    width: 4,
+    height: 3,
+    src: senderoTreesOne,
   },
   {
-    id: 6,
-    photo: senderoEntrance,
+    width: 4,
+    height: 3,
+    src: senderoEntrance,
   },
   {
-    id: 7,
-    photo: senderoSunset,
+    width: 4,
+    height: 3,
+    src: senderoSunset,
   },
   {
-    id: 8,
-    photo: senderoOverview,
+    width: 4,
+    height: 3,
+    src: senderoOverview,
   },
 ];
-
-export default SenderoPhotos;
