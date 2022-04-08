@@ -1,6 +1,6 @@
 import React from 'react';
 import Farm from '../assets/background/farm-bg.png';
-import FarmMobile from '../assets/background/farm-mobile.jpg';
+import FarmMobile from '../assets/background/farm-mobile.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import '../assets/styles/style.css';

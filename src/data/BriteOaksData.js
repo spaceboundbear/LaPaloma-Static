@@ -1,7 +1,7 @@
 import LogoBriteOaks from '../assets/logo/logo-briteoaks.png';
 import LocBriteOaks from '../assets/maps/loc-briteoaks.jpg';
 import PlatBriteOaks from '../assets/plat/briteOaks.jpg';
-import recordedPlat from '../assets/recordedPlats/briteoaks-recorded.png';
+import recordedPlat from '../assets/recordedPlats/briteoaks-recorded.jpg';
 import restriction from '../assets/restrictions/briteoaks-restrictions.pdf';
 
 const BriteOaksData = [

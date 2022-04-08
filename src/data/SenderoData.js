@@ -1,7 +1,7 @@
 import SenderoLogo from '../assets/logo/Logo-SenderoCrossing.png';
 import LocSendero from '../assets/maps/loc-sendero.jpg';
-import PlatSendero from '../assets/plat/sendero.png';
-import recordedPlat from '../assets/recordedPlats/sendero-recorded-plat.png';
+import PlatSendero from '../assets/plat/sendero.jpg';
+import recordedPlat from '../assets/recordedPlats/sendero-recorded-plat.jpg';
 import restriction from '../assets/restrictions/sendero-restrictions.pdf';
 
 const SenderoData = [
