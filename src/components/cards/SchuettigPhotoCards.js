@@ -70,7 +70,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigFenceOne}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-fence"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
             />
           </Card>
@@ -81,7 +81,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigFenceTwo}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-fence-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
             />
           </Card>
@@ -92,7 +92,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigTree}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-tree"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
             />
           </Card>
@@ -103,7 +103,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigRd}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-rd"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
             />
           </Card>
@@ -116,7 +116,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigFieldTwo}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-field"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
             />
           </Card>
@@ -127,7 +127,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigField}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-field-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
             />
           </Card>
@@ -138,7 +138,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigZoom}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-tree"
               onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
             />
           </Card>
@@ -149,7 +149,7 @@ export default class Photos extends React.Component {
             <img
               src={schuettigZoomTwo}
               style={styles.photo}
-              alt="sendero"
+              alt="schuettig-tree-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
             />
           </Card>
