@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LaPaloma-Static/static/css/main.e14811cf.css",
-    "main.js": "/LaPaloma-Static/static/js/main.e6d49a8d.js",
+    "main.js": "/LaPaloma-Static/static/js/main.558ae7d3.js",
     "static/media/brite-trees-2.jpg": "/LaPaloma-Static/static/media/brite-trees-2.628a9e11444f535fa50a.jpg",
     "static/media/brite-creek.jpg": "/LaPaloma-Static/static/media/brite-creek.ccc985e00e5c857402e8.jpg",
     "static/media/briteoaks-restrictions.pdf": "/LaPaloma-Static/static/media/briteoaks-restrictions.d62d78c7a9511b61672b.pdf",
@@ -52,45 +52,21 @@
     "static/media/briteOaks.jpg": "/LaPaloma-Static/static/media/briteOaks.5670f2757d490cf7e0a8.jpg",
     "static/media/sendero-recorded-plat.jpg": "/LaPaloma-Static/static/media/sendero-recorded-plat.f7273bdb3e305258f777.jpg",
     "static/media/summit-application.pdf": "/LaPaloma-Static/static/media/summit-application.d5eb9edf7598f00341b0.pdf",
-    "static/media/brite-trees-2_tn.jpg": "/LaPaloma-Static/static/media/brite-trees-2_tn.f46124ad01b49f14b286.jpg",
-    "static/media/brite-creek_tn.jpg": "/LaPaloma-Static/static/media/brite-creek_tn.017e5dd7d118ffdc6834.jpg",
     "static/media/loc-schuettig.jpg": "/LaPaloma-Static/static/media/loc-schuettig.0e8b1db06ffb78e078c5.jpg",
     "static/media/loc-sendero.jpg": "/LaPaloma-Static/static/media/loc-sendero.d887df891159b0921766.jpg",
     "static/media/loc-briteoaks.jpg": "/LaPaloma-Static/static/media/loc-briteoaks.5e24eb46b0b1e7710f2a.jpg",
-    "static/media/summit-aerial_tn.jpg": "/LaPaloma-Static/static/media/summit-aerial_tn.46ff83021a34770a2b00.jpg",
-    "static/media/summit-aerial-2_tn.jpg": "/LaPaloma-Static/static/media/summit-aerial-2_tn.645b81e1402e1480e326.jpg",
     "static/media/loc-summit.jpg": "/LaPaloma-Static/static/media/loc-summit.aba07e3a3a543920be2a.jpg",
-    "static/media/brite-trees-1_tn.jpg": "/LaPaloma-Static/static/media/brite-trees-1_tn.2146264d1180df7f22d8.jpg",
-    "static/media/brite-aerial-1_tn.jpg": "/LaPaloma-Static/static/media/brite-aerial-1_tn.23c5c86fd7c11018ed16.jpg",
-    "static/media/summit-tree-1_tn.jpg": "/LaPaloma-Static/static/media/summit-tree-1_tn.b8d7dfa1042341ba2e33.jpg",
     "static/media/helvetica-std-bold.otf": "/LaPaloma-Static/static/media/helvetica-std-bold.4bc96e238b2e211c6e4c.otf",
     "static/media/helvetica-std-bold-obl.otf": "/LaPaloma-Static/static/media/helvetica-std-bold-obl.515ff706c6fa2d91f34d.otf",
-    "static/media/sendero-trees1_tn.jpg": "/LaPaloma-Static/static/media/sendero-trees1_tn.46dda2abb27a7c2d9119.jpg",
     "static/media/helvetica-std-roman.otf": "/LaPaloma-Static/static/media/helvetica-std-roman.4ff7f98a84f16e40f43f.otf",
-    "static/media/summit-trail_tn.jpg": "/LaPaloma-Static/static/media/summit-trail_tn.328d2237b315f2f6ab8f.jpg",
-    "static/media/brite-aerial-2_tn.jpg": "/LaPaloma-Static/static/media/brite-aerial-2_tn.dcedf55f327052a9693a.jpg",
-    "static/media/sendero-trees2_tn.jpg": "/LaPaloma-Static/static/media/sendero-trees2_tn.e25d1884a7ec0b60b5eb.jpg",
-    "static/media/sendero-trees3_tn.jpg": "/LaPaloma-Static/static/media/sendero-trees3_tn.a8406f288bcb86f323a7.jpg",
-    "static/media/summit-field-2_tn.jpg": "/LaPaloma-Static/static/media/summit-field-2_tn.1f5cc9702af122edd40e.jpg",
-    "static/media/sendero-entrance_tn.jpg": "/LaPaloma-Static/static/media/sendero-entrance_tn.b58a84b7d2e4c8587433.jpg",
-    "static/media/summit-tree-2_tn.jpg": "/LaPaloma-Static/static/media/summit-tree-2_tn.ac5bf6c32ec64d67875c.jpg",
-    "static/media/sendero-overview_tn.jpg": "/LaPaloma-Static/static/media/sendero-overview_tn.45fd15ca16518cd6410d.jpg",
-    "static/media/sendero-deer_tn.jpg": "/LaPaloma-Static/static/media/sendero-deer_tn.67b10773837822cbb716.jpg",
-    "static/media/brite-field-3_tn.jpg": "/LaPaloma-Static/static/media/brite-field-3_tn.e975613e3a8a17a57248.jpg",
-    "static/media/summit-fence_tn.jpg": "/LaPaloma-Static/static/media/summit-fence_tn.ea4b6e4f2ddaa143a24b.jpg",
     "static/media/helvetica-std-bold-cond.otf": "/LaPaloma-Static/static/media/helvetica-std-bold-cond.450fd7d82c546c3f785d.otf",
-    "static/media/summit-field_tn.jpg": "/LaPaloma-Static/static/media/summit-field_tn.b47f15aedc1d39ce24b0.jpg",
-    "static/media/sendero-deer-turkey_tn.jpg": "/LaPaloma-Static/static/media/sendero-deer-turkey_tn.409c0748d95de5508236.jpg",
-    "static/media/brite-field-2_tn.jpg": "/LaPaloma-Static/static/media/brite-field-2_tn.c1130481db02a13a1c08.jpg",
-    "static/media/sendero-sunset_tn.jpg": "/LaPaloma-Static/static/media/sendero-sunset_tn.b19840d681ba5a1fa116.jpg",
-    "static/media/brite-field-4_tn.jpg": "/LaPaloma-Static/static/media/brite-field-4_tn.aad117371671653584b1.jpg",
     "static/media/barley-regular.otf": "/LaPaloma-Static/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
     "index.html": "/LaPaloma-Static/index.html",
     "main.e14811cf.css.map": "/LaPaloma-Static/static/css/main.e14811cf.css.map",
-    "main.e6d49a8d.js.map": "/LaPaloma-Static/static/js/main.e6d49a8d.js.map"
+    "main.558ae7d3.js.map": "/LaPaloma-Static/static/js/main.558ae7d3.js.map"
   },
   "entrypoints": [
     "static/css/main.e14811cf.css",
-    "static/js/main.e6d49a8d.js"
+    "static/js/main.558ae7d3.js"
   ]
 }
