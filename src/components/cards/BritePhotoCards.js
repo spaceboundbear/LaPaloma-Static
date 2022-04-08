@@ -13,6 +13,15 @@ import briteFieldThree from '../../assets/photos/brite/brite-field-4.jpg';
 import briteTrees from '../../assets/photos/brite/brite-trees-1.jpg';
 import briteTreesTwo from '../../assets/photos/brite/brite-trees-2.jpg';
 
+import briteAerialOneTN from '../../assets/photos/brite/brite-aerial-1_tn.jpg';
+import briteAerialTwoTN from '../../assets/photos/brite/brite-aerial-2_tn.jpg';
+import briteCreekTN from '../../assets/photos/brite/brite-creek_tn.jpg';
+import briteFieldTN from '../../assets/photos/brite/brite-field-2_tn.jpg';
+import briteFieldTwoTN from '../../assets/photos/brite/brite-field-3_tn.jpg';
+import briteFieldThreeTN from '../../assets/photos/brite/brite-field-4_tn.jpg';
+import briteTreesTN from '../../assets/photos/brite/brite-trees-1_tn.jpg';
+import briteTreesTwoTN from '../../assets/photos/brite/brite-trees-2_tn.jpg';
+
 import { Card, Row } from 'react-bootstrap';
 
 const images = [
@@ -29,7 +38,7 @@ const images = [
 const styles = {
   photo: {
     maxWidth: '320px',
-    maxHeight: '200px',
+    maxHeight: '190px',
     height: 'auto',
     width: '100%',
     borderWidth: '2px',
@@ -68,7 +77,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteAerialOne}
+              src={briteAerialOneTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
@@ -79,7 +88,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteAerialTwo}
+              src={briteAerialTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
@@ -90,7 +99,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteCreek}
+              src={briteCreekTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
@@ -101,7 +110,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteField}
+              src={briteFieldTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
@@ -114,7 +123,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteFieldTwo}
+              src={briteFieldTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
@@ -125,7 +134,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteFieldThree}
+              src={briteFieldThreeTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
@@ -136,7 +145,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteTrees}
+              src={briteTreesTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
@@ -147,7 +156,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={briteTreesTwo}
+              src={briteTreesTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}

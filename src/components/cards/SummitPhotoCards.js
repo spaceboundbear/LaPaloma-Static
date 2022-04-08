@@ -12,6 +12,15 @@ import summitField from '../../assets/photos/summit/summit-field.jpg';
 import summitTree from '../../assets/photos/summit/summit-tree-1.jpg';
 import summitTreeTwo from '../../assets/photos/summit/summit-tree-2.jpg';
 
+import summitAerialOneTN from '../../assets/photos/summit/summit-aerial_tn.jpg';
+import summitAerialTwoTN from '../../assets/photos/summit/summit-aerial-2_tn.jpg';
+import summitFenceTN from '../../assets/photos/summit/summit-fence_tn.jpg';
+import summitTrailTN from '../../assets/photos/summit/summit-trail_tn.jpg';
+import summitFieldTwoTN from '../../assets/photos/summit/summit-field-2_tn.jpg';
+import summitFieldTN from '../../assets/photos/summit/summit-field_tn.jpg';
+import summitTreeTN from '../../assets/photos/summit/summit-tree-1_tn.jpg';
+import summitTreeTwoTN from '../../assets/photos/summit/summit-tree-2_tn.jpg';
+
 import { Card, Row } from 'react-bootstrap';
 
 const images = [
@@ -28,7 +37,7 @@ const images = [
 const styles = {
   photo: {
     maxWidth: '320px',
-    maxHeight: '200px',
+    maxHeight: '160px',
     height: 'auto',
     width: '100%',
     borderWidth: '2px',
@@ -67,7 +76,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitAerialOne}
+              src={summitAerialOneTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
@@ -78,7 +87,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitAerialTwo}
+              src={summitAerialTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
@@ -89,7 +98,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitFence}
+              src={summitFenceTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
@@ -100,7 +109,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitTrail}
+              src={summitTrailTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
@@ -113,7 +122,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitFieldTwo}
+              src={summitFieldTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
@@ -124,7 +133,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitField}
+              src={summitFieldTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
@@ -135,7 +144,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitTree}
+              src={summitTreeTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
@@ -146,7 +155,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={summitTreeTwo}
+              src={summitTreeTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}

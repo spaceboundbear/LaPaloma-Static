@@ -13,6 +13,15 @@ import schuettigField from '../../assets/photos/schuettig/schuettig-field.jpg';
 import schuettigZoom from '../../assets/photos/schuettig/schuettig-zoom.jpg';
 import schuettigZoomTwo from '../../assets/photos/schuettig/schuettig-zoom-2.jpg';
 
+import schuettigFenceOneTN from '../../assets/photos/schuettig/schuettig-fence_tn.jpg';
+import schuettigFenceTwoTN from '../../assets/photos/schuettig/schuettig-fence-2_tn.jpg';
+import schuettigTreeTN from '../../assets/photos/schuettig/schuettig-tree_tn.jpg';
+import schuettigRdTN from '../../assets/photos/schuettig/schuettig-rd_tn.jpg';
+import schuettigFieldTwoTN from '../../assets/photos/schuettig/schuettig-field-2_tn.jpg';
+import schuettigFieldTN from '../../assets/photos/schuettig/schuettig-field_tn.jpg';
+import schuettigZoomTN from '../../assets/photos/schuettig/schuettig-zoom_tn.jpg';
+import schuettigZoomTwoTN from '../../assets/photos/schuettig/schuettig-zoom-2_tn.jpg';
+
 import { Card, Row } from 'react-bootstrap';
 
 const images = [
@@ -68,7 +77,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigFenceOne}
+              src={schuettigFenceOneTN}
               style={styles.photo}
               alt="schuettig-fence"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
@@ -79,7 +88,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigFenceTwo}
+              src={schuettigFenceTwoTN}
               style={styles.photo}
               alt="schuettig-fence-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
@@ -90,7 +99,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigTree}
+              src={schuettigTreeTN}
               style={styles.photo}
               alt="schuettig-tree"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
@@ -101,7 +110,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigRd}
+              src={schuettigRdTN}
               style={styles.photo}
               alt="schuettig-rd"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
@@ -114,7 +123,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigFieldTwo}
+              src={schuettigFieldTwoTN}
               style={styles.photo}
               alt="schuettig-field"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
@@ -125,7 +134,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigField}
+              src={schuettigFieldTN}
               style={styles.photo}
               alt="schuettig-field-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
@@ -136,7 +145,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigZoom}
+              src={schuettigZoomTN}
               style={styles.photo}
               alt="schuettig-tree"
               onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
@@ -147,7 +156,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={schuettigZoomTwo}
+              src={schuettigZoomTwoTN}
               style={styles.photo}
               alt="schuettig-tree-2"
               onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}

@@ -12,6 +12,15 @@ import senderoEntrance from '../../assets/photos/sendero/sendero-entrance.jpg';
 import senderoSunset from '../../assets/photos/sendero/sendero-sunset.jpg';
 import senderoOverview from '../../assets/photos/sendero/sendero-overview.jpg';
 
+import senderoTurkeyTN from '../../assets/photos/sendero/sendero-deer-turkey_tn.jpg';
+import senderoDeerTN from '../../assets/photos/sendero/sendero-deer_tn.jpg';
+import senderoTreesThreeTN from '../../assets/photos/sendero/sendero-trees3_tn.jpg';
+import senderoTreesTwoTN from '../../assets/photos/sendero/sendero-trees2_tn.jpg';
+import senderoTreesOneTN from '../../assets/photos/sendero/sendero-trees1_tn.jpg';
+import senderoEntranceTN from '../../assets/photos/sendero/sendero-entrance_tn.jpg';
+import senderoSunsetTN from '../../assets/photos/sendero/sendero-sunset_tn.jpg';
+import senderoOverviewTN from '../../assets/photos/sendero/sendero-overview_tn.jpg';
+
 import { Card, Row } from 'react-bootstrap';
 
 const images = [
@@ -28,7 +37,7 @@ const images = [
 const styles = {
   photo: {
     maxWidth: '320px',
-    maxHeight: '200px',
+    maxHeight: '170px',
     height: 'auto',
     width: '100%',
     borderWidth: '2px',
@@ -67,7 +76,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoTurkey}
+              src={senderoTurkeyTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
@@ -78,7 +87,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoDeer}
+              src={senderoDeerTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
@@ -89,7 +98,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoTreesThree}
+              src={senderoTreesThreeTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
@@ -100,7 +109,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoTreesTwo}
+              src={senderoTreesTwoTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
@@ -113,7 +122,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoTreesOne}
+              src={senderoTreesOneTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
@@ -124,7 +133,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoEntrance}
+              src={senderoEntranceTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
@@ -135,7 +144,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoSunset}
+              src={senderoSunsetTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}
@@ -146,7 +155,7 @@ export default class Photos extends React.Component {
             className="col-sm-12 col-md-6 col-lg-3 mt-4"
           >
             <img
-              src={senderoOverview}
+              src={senderoOverviewTN}
               style={styles.photo}
               alt="sendero"
               onClick={() => this.setState({ isOpen: true, photoIndex: 7 })}
