@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/LaPaloma-Static/static/css/main.e14811cf.css",
-    "main.js": "/LaPaloma-Static/static/js/main.45ba82c0.js",
+    "main.js": "/LaPaloma-Static/static/js/main.61469c59.js",
     "static/media/brite-trees-2.jpg": "/LaPaloma-Static/static/media/brite-trees-2.628a9e11444f535fa50a.jpg",
     "static/media/brite-creek.jpg": "/LaPaloma-Static/static/media/brite-creek.ccc985e00e5c857402e8.jpg",
-    "static/media/farm-mobile.png": "/LaPaloma-Static/static/media/farm-mobile.b5b0dd6016692e2f97a0.png",
     "static/media/briteoaks-restrictions.pdf": "/LaPaloma-Static/static/media/briteoaks-restrictions.d62d78c7a9511b61672b.pdf",
     "static/media/briteoaks-recorded.jpg": "/LaPaloma-Static/static/media/briteoaks-recorded.fa9ef73d3a56be1a394f.jpg",
+    "static/media/farm-mobile.webp": "/LaPaloma-Static/static/media/farm-mobile.7cf824f7d3ff3a4accf7.webp",
     "static/media/brite-trees-1.jpg": "/LaPaloma-Static/static/media/brite-trees-1.c323f8906b353594c340.jpg",
     "static/media/summit-aerial.jpg": "/LaPaloma-Static/static/media/summit-aerial.f3e0bb2e3826807151bf.jpg",
     "static/media/summit-aerial-2.jpg": "/LaPaloma-Static/static/media/summit-aerial-2.a24b85489843a3f0e66d.jpg",
@@ -47,19 +47,19 @@
     "static/media/lydia-headshot.jpg": "/LaPaloma-Static/static/media/lydia-headshot.6bdcb1eaad8a77d5e4ae.jpg",
     "static/media/sendero-card.png": "/LaPaloma-Static/static/media/sendero-card.751e7b20db95d5bf2deb.png",
     "static/media/sendero-deer.jpg": "/LaPaloma-Static/static/media/sendero-deer.d40cf0ecaa3858a1a4fa.jpg",
-    "static/media/loc-schuettig.jpg": "/LaPaloma-Static/static/media/loc-schuettig.b7808e207732f6e17632.jpg",
-    "static/media/loc-sendero.jpg": "/LaPaloma-Static/static/media/loc-sendero.8a6d72a83bc5ddf4f8de.jpg",
-    "static/media/loc-briteoaks.jpg": "/LaPaloma-Static/static/media/loc-briteoaks.759e681d161b34ab185b.jpg",
     "static/media/schuettig-recorded.jpg": "/LaPaloma-Static/static/media/schuettig-recorded.82607a87a16f06714c0d.jpg",
-    "static/media/loc-summit.jpg": "/LaPaloma-Static/static/media/loc-summit.8b1c7df2423998c1489c.jpg",
     "static/media/sendero-deer-turkey.jpg": "/LaPaloma-Static/static/media/sendero-deer-turkey.0f8ada7d1d270e87fb71.jpg",
     "static/media/briteOaks.jpg": "/LaPaloma-Static/static/media/briteOaks.5670f2757d490cf7e0a8.jpg",
     "static/media/sendero-recorded-plat.jpg": "/LaPaloma-Static/static/media/sendero-recorded-plat.f7273bdb3e305258f777.jpg",
     "static/media/summit-application.pdf": "/LaPaloma-Static/static/media/summit-application.d5eb9edf7598f00341b0.pdf",
     "static/media/brite-trees-2_tn.jpg": "/LaPaloma-Static/static/media/brite-trees-2_tn.f46124ad01b49f14b286.jpg",
     "static/media/brite-creek_tn.jpg": "/LaPaloma-Static/static/media/brite-creek_tn.017e5dd7d118ffdc6834.jpg",
+    "static/media/loc-schuettig.jpg": "/LaPaloma-Static/static/media/loc-schuettig.0e8b1db06ffb78e078c5.jpg",
+    "static/media/loc-sendero.jpg": "/LaPaloma-Static/static/media/loc-sendero.d887df891159b0921766.jpg",
+    "static/media/loc-briteoaks.jpg": "/LaPaloma-Static/static/media/loc-briteoaks.5e24eb46b0b1e7710f2a.jpg",
     "static/media/summit-aerial_tn.jpg": "/LaPaloma-Static/static/media/summit-aerial_tn.46ff83021a34770a2b00.jpg",
     "static/media/summit-aerial-2_tn.jpg": "/LaPaloma-Static/static/media/summit-aerial-2_tn.645b81e1402e1480e326.jpg",
+    "static/media/loc-summit.jpg": "/LaPaloma-Static/static/media/loc-summit.aba07e3a3a543920be2a.jpg",
     "static/media/brite-trees-1_tn.jpg": "/LaPaloma-Static/static/media/brite-trees-1_tn.2146264d1180df7f22d8.jpg",
     "static/media/brite-aerial-1_tn.jpg": "/LaPaloma-Static/static/media/brite-aerial-1_tn.23c5c86fd7c11018ed16.jpg",
     "static/media/summit-tree-1_tn.jpg": "/LaPaloma-Static/static/media/summit-tree-1_tn.b8d7dfa1042341ba2e33.jpg",
@@ -95,10 +95,10 @@
     "static/media/barley-regular.otf": "/LaPaloma-Static/static/media/barley-regular.91cfdaa1521cebe7dc6d.otf",
     "index.html": "/LaPaloma-Static/index.html",
     "main.e14811cf.css.map": "/LaPaloma-Static/static/css/main.e14811cf.css.map",
-    "main.45ba82c0.js.map": "/LaPaloma-Static/static/js/main.45ba82c0.js.map"
+    "main.61469c59.js.map": "/LaPaloma-Static/static/js/main.61469c59.js.map"
   },
   "entrypoints": [
     "static/css/main.e14811cf.css",
-    "static/js/main.45ba82c0.js"
+    "static/js/main.61469c59.js"
   ]
 }
