@@ -114,7 +114,7 @@ const BriteOaksCard = (props) => {
                 <Col className="text-center">
                   <a
                     href={props.recorded}
-                    download="sendero-plat"
+                    download="brite-oaks-plat"
                     style={styles.button}
                     className="btn btn-primary mt-1 mx-2"
                   >
@@ -123,7 +123,7 @@ const BriteOaksCard = (props) => {
 
                   <a
                     href={props.restrictions}
-                    download="sendero-restrictions"
+                    download="brite-oaks-restrictions"
                     style={styles.button}
                     className="btn btn-primary mt-1 me-2"
                     target="_blank"

@@ -112,17 +112,8 @@ const SchuettigCard = (props) => {
               <Row className="pt-3">
                 <Col className="text-center">
                   <a
-                    href={props.recorded}
-                    download="sendero-plat"
-                    style={styles.button}
-                    className="btn btn-primary mt-1 mx-2"
-                  >
-                    Recorded Plat
-                  </a>
-
-                  <a
                     href={props.restrictions}
-                    download="sendero-restrictions"
+                    download="schuettig-restrictions"
                     style={styles.button}
                     className="btn btn-primary mt-1 me-2"
                     target="_blank"

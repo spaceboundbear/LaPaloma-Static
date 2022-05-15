@@ -2,6 +2,7 @@ import LogoSummit from '../assets/logo/logo-summit.png';
 import LocSummit from '../assets/maps/loc-summit.jpg';
 import PlatSummit from '../assets/plat/summit.png';
 import AppSummit from '../assets/restrictions/summit-application.pdf';
+import restriction from '../assets/restrictions/summit-restrictions.pdf';
 
 const SummitData = [
   {
@@ -24,6 +25,7 @@ const SummitData = [
       'Seller Financing Available. Download the Application below or contact Lydia for rates and more information.',
     link: 'https://goo.gl/maps/xYmZQMeWjD51VzVg6',
     application: AppSummit,
+    restrictions: restriction,
   },
 ];
 

@@ -120,12 +120,13 @@ const SummitCard = (props) => {
             <Container>
               <Row className="pt-3">
                 <Col className="text-center">
-                  <button
+                  <a
                     style={styles.button}
+                    href={props.restrictions}
                     className="btn btn-primary mt-1"
                   >
                     Recorded Restrictions
-                  </button>
+                  </a>
                 </Col>
               </Row>
               <Container>

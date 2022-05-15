@@ -29,6 +29,7 @@ const Summit = () => {
               quote={location.quote}
               link={location.link}
               application={location.application}
+              restrictions={location.restrictions}
             />
           ))}
         </Row>
